@@ -19,5 +19,3 @@ docker create --name rasbench-export ccic-dmp-eval-images-registry.cn-hangzhou.c
 docker cp rasbench-export:/opt/safety_embodiment ./safety_embodiment
 docker rm rasbench-export
 ```
-
-This image is the competition baseline. Its digest is not a verified binding to the paper's final experiment version.

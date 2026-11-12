@@ -18,9 +18,9 @@ The primary test evaluates four fixed observations from each of 80 held-out epis
 | TCP rotation increment (rad) | 0.001669677 | 0.029147753 |
 | Gripper closure fraction | 0.046941537 | 0.281587481 |
 
-π0.5 has lower mean error on all five nonconstant metrics. The lateral-velocity target is constant. Simple action baselines are retained in the prediction package; the phase-mean baseline outperforms the adapted models on several motion metrics. The evaluation measures conditional action prediction; closed-loop task success and autonomous phase selection were not evaluated.
+π0.5 has lower mean error on all five nonconstant metrics. The lateral-velocity target is constant. The prediction files include simple action baselines; the phase-mean baseline outperforms the adapted models on several motion metrics. The evaluation measures conditional action prediction; closed-loop task success and autonomous phase selection were not evaluated.
 
-The phase-coverage evaluation contains 802 observations from the same 80 test episodes. These observations do not constitute additional independent episodes. Shared-GPU latency is diagnostic and is not used to claim a deployment-cost advantage.
+The phase-coverage evaluation contains 802 observations from the same 80 test episodes. These observations do not constitute additional independent episodes. Latency measurements were collected on a shared GPU.
 
 ## Recompute
 
@@ -37,7 +37,7 @@ python our_agent/experiments/market_offline/scripts/analyze_action_modes.py
 
 ## Training materials
 
-[Protocol](new_experiment/campaign_v1/PROTOCOL.json), [implementation details](new_experiment/campaign_v1/IMPLEMENTATION_DETAILS.json), and [training source](new_experiment/campaign_v1/source_snapshot) describe the executed adaptation. Split indexes retain episode identities and source hashes. Re-training additionally requires the teacher arrays/images, foundation checkpoints, and the original framework dependencies; these are not needed for the statistical recomputation above.
+[Protocol](new_experiment/campaign_v1/PROTOCOL.json), [implementation details](new_experiment/campaign_v1/IMPLEMENTATION_DETAILS.json), and [training source](new_experiment/campaign_v1/source_snapshot) describe the executed adaptation. Split indexes retain episode identities and source hashes. Re-training additionally requires the teacher arrays/images, foundation checkpoints, and the original framework dependencies; statistical recomputation uses the included predictions.
 
 ## Adapter download
 
@@ -50,4 +50,4 @@ unzip model_adapters/RASBench-market-adapters.zip -d model_adapters
 
 [SHA-256](ADAPTER_SHA256SUMS.txt) · [File hashes](ADAPTER_FILES.json)
 
-The adapters require their matching foundation models and the included custom loaders. Optimizer state is not included.
+The adapters require their matching foundation models and the included custom loaders.

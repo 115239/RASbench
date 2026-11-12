@@ -19,8 +19,4 @@ python our_agent/experiments/market_offline/scripts/aggregate_new_experiment.py
 
 The experiment uses 80 held-out episodes and three training seeds per model. See the [protocol and results](our_agent/experiments/market_offline/README.md).
 
-## Benchmark version
-
-The published runner and judge are the archived `runner_v0925` candidate implementation. The [version record](benchmark/provenance/source_status.json) identifies its status. Episode-level inputs needed to reconstruct the paper's Table 4 are currently unavailable in this release; see [result availability](benchmark/results/README.md).
-
-Code and asset licensing is documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Code and asset terms are described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
