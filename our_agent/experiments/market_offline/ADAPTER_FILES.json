@@ -1,0 +1,122 @@
+[
+  {
+    "path": "gr00t_seed20261111/checkpoint-2000/adapter.safetensors",
+    "bytes": 137904208,
+    "sha256": "61b9022e7de2565570e33183a910ea32b1dca1c209fc6b30e83b6ee11e3ab4ea"
+  },
+  {
+    "path": "gr00t_seed20261112/checkpoint-2000/adapter.safetensors",
+    "bytes": 137904208,
+    "sha256": "7ffb98c8fc01d2428eb982d1295f47f0614245f07a9a344edea044332eb41352"
+  },
+  {
+    "path": "gr00t_seed20261113/checkpoint-2000/adapter.safetensors",
+    "bytes": 137904208,
+    "sha256": "a75ad26bb40bc781a940ce44e610956db01cb4fac0dcaae1b3c562f486540b91"
+  },
+  {
+    "path": "pi05_seed20261111/trainable_params.npz",
+    "bytes": 208622078,
+    "sha256": "50e8290bfe1d15d160ad43d121405229b95eda8cdf8799d4bc33eef6b49407fa"
+  },
+  {
+    "path": "pi05_seed20261112/trainable_params.npz",
+    "bytes": 208622078,
+    "sha256": "a91cc0b81430d4e83ee5758a61767d5ec0864f18789a57eff28e25d2e7a656c7"
+  },
+  {
+    "path": "pi05_seed20261113/trainable_params.npz",
+    "bytes": 208622078,
+    "sha256": "e754a0a3878d93d00909107c40135450b0a86bc91e5441d5f89927b2c6e3585f"
+  },
+  {
+    "path": "gr00t_seed20261111/checkpoint-2000/ADAPTER_CHECKPOINT.json",
+    "bytes": 214,
+    "sha256": "6e6c75e86e22512941d6f9b9b69718c8ba61a5f9ea890c9450fc5474e5747ad2"
+  },
+  {
+    "path": "gr00t_seed20261111/checkpoint-2000/dataset_binding.json",
+    "bytes": 321,
+    "sha256": "4534251d61f50d6c787115fc14329c1a574bdb52a1704d3b6a097c82661063d1"
+  },
+  {
+    "path": "gr00t_seed20261111/checkpoint-2000/embodiment_id.json",
+    "bytes": 2226,
+    "sha256": "5e8611697dc90b7b7a92cf2a8da926275c16f5966c5eb109e0216c3c51af15a1"
+  },
+  {
+    "path": "gr00t_seed20261111/checkpoint-2000/market_statistics.json",
+    "bytes": 6383,
+    "sha256": "e3dd067105707a4c27faa142c804f41d3e523fcc76f0890eb443109dcb418273"
+  },
+  {
+    "path": "gr00t_seed20261111/checkpoint-2000/processor_config.json",
+    "bytes": 26916,
+    "sha256": "f2fa0991d7c0e44928a03e1feb9ddecb7b1f23ed2fe963f25b663b77f84ed076"
+  },
+  {
+    "path": "gr00t_seed20261111/checkpoint-2000/statistics.json",
+    "bytes": 8456,
+    "sha256": "43315f2c88f1d2198239a5c2e8e16080b2db701185cd33953682bb7ed7162f62"
+  },
+  {
+    "path": "gr00t_seed20261112/checkpoint-2000/ADAPTER_CHECKPOINT.json",
+    "bytes": 214,
+    "sha256": "f9f341aad020b9b2d6e9ccf093425700c689f30deb46a6ee5a8fa32805490d7b"
+  },
+  {
+    "path": "gr00t_seed20261112/checkpoint-2000/dataset_binding.json",
+    "bytes": 321,
+    "sha256": "1d690066557e615a205451f81156b6ac593853c0c8ee8c6164af953bfa47f846"
+  },
+  {
+    "path": "gr00t_seed20261112/checkpoint-2000/embodiment_id.json",
+    "bytes": 2226,
+    "sha256": "5e8611697dc90b7b7a92cf2a8da926275c16f5966c5eb109e0216c3c51af15a1"
+  },
+  {
+    "path": "gr00t_seed20261112/checkpoint-2000/market_statistics.json",
+    "bytes": 6383,
+    "sha256": "e3dd067105707a4c27faa142c804f41d3e523fcc76f0890eb443109dcb418273"
+  },
+  {
+    "path": "gr00t_seed20261112/checkpoint-2000/processor_config.json",
+    "bytes": 26916,
+    "sha256": "f2fa0991d7c0e44928a03e1feb9ddecb7b1f23ed2fe963f25b663b77f84ed076"
+  },
+  {
+    "path": "gr00t_seed20261112/checkpoint-2000/statistics.json",
+    "bytes": 8456,
+    "sha256": "43315f2c88f1d2198239a5c2e8e16080b2db701185cd33953682bb7ed7162f62"
+  },
+  {
+    "path": "gr00t_seed20261113/checkpoint-2000/ADAPTER_CHECKPOINT.json",
+    "bytes": 214,
+    "sha256": "e849d03cb862ba30c8e621dcfe3f7a0eb22b4c0536484b44df9a170f1c2b1dee"
+  },
+  {
+    "path": "gr00t_seed20261113/checkpoint-2000/dataset_binding.json",
+    "bytes": 321,
+    "sha256": "3fc8b25a3275ff57a3c72ffe4b05db310ea7a1dbec2a1a91b4e7c92f89044baa"
+  },
+  {
+    "path": "gr00t_seed20261113/checkpoint-2000/embodiment_id.json",
+    "bytes": 2226,
+    "sha256": "c8af3d61fe9ca5508c4a5b9e8be6ad4d0d1eb2c68cec76620ea089b894a3ee22"
+  },
+  {
+    "path": "gr00t_seed20261113/checkpoint-2000/market_statistics.json",
+    "bytes": 6383,
+    "sha256": "e3dd067105707a4c27faa142c804f41d3e523fcc76f0890eb443109dcb418273"
+  },
+  {
+    "path": "gr00t_seed20261113/checkpoint-2000/processor_config.json",
+    "bytes": 26916,
+    "sha256": "f2fa0991d7c0e44928a03e1feb9ddecb7b1f23ed2fe963f25b663b77f84ed076"
+  },
+  {
+    "path": "gr00t_seed20261113/checkpoint-2000/statistics.json",
+    "bytes": 8456,
+    "sha256": "43315f2c88f1d2198239a5c2e8e16080b2db701185cd33953682bb7ed7162f62"
+  }
+]

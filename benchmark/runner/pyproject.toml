@@ -1,0 +1,53 @@
+[project]
+name = "robolab-competition-runner"
+version = "4.3.0"
+description = "Public RoboLab V4 competition runner and policy protocol SDK"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+dependencies = [
+    "robolab==0.2.1",
+    "robolab-competition-tasks==4.3.0",
+    "h5py",
+    "msgpack",
+    "numpy",
+    "packaging",
+    "Pillow",
+    "pyzmq",
+    "websockets>=14.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+robolab-runner = "robolab_runner.cli:main"
+robolab-policy-zero = "robolab_runner.reference:main"
+robolab-policy-spot-reference = "robolab_runner.spot_reference:main"
+robolab-policy-spot-pi05 = "robolab_runner.spot_pi05:main"
+robolab-policy-franka-pi05 = "robolab_runner.franka_pi05:main"
+robolab-policy-conformance = "robolab_runner.conformance:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["robolab_runner", "robolab_runner.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.uv.sources]
+robolab = {workspace = true}
+robolab-competition-tasks = {workspace = true}
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["I"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["robolab_runner", "robolab"]

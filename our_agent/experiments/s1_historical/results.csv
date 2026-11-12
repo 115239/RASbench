@@ -1,0 +1,5 @@
+model,task,split,successes,episodes,rate,ci95_low,ci95_high,evidence_level,source
+GR00T N1.7,S1 fixed base pick and place,G5_HELDOUT_A_FORMAL_200,183,200,0.915,0.8681041292843443,0.9462542498225244,archived qualification manifest; episode traces unavailable,evidence/g5_formal200_20k_seed0_r5_dn4.json
+GR00T N1.7,S1 fixed base pick and place,G7_HELDOUT_B_FORMAL_200,188,200,0.94,0.8980683070423372,0.9653478057456681,archived qualification manifest; episode traces unavailable,evidence/g7_formal200_20k_seed0_r5_dn4.json
+pi0.5,S1 fixed base pick and place,full250,150,200,0.75,0.6856590168795417,0.8049183199318249,archived retrospective only; episode traces unavailable,evidence/pi05_report_excerpt.json
+pi0.5,S1 fixed base pick and place,canary_v3_step250,163,200,0.815,0.7554293723884824,0.8626980719938395,archived retrospective only; episode traces unavailable,evidence/pi05_report_excerpt.json

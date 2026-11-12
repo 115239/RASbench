@@ -1,0 +1,19 @@
+{
+  "version": "0915",
+  "loaded_carry_joints": [
+    -0.10054943547593521,
+    1.8002252006296602,
+    -0.42334569615338585,
+    0.054330805050899225,
+    -0.8692077593968606,
+    -0.016354469868872405
+  ],
+  "action_hz": 2,
+  "pick_seconds": 60,
+  "place_seconds": 30,
+  "nav_refresh_seconds": 2.0,
+  "dock_heading_mode": "operation_alignment",
+  "robot_contact_profile": "navigation_bound",
+  "nav_stall_recoveries": 1,
+  "dock_target_mode": "object"
+}

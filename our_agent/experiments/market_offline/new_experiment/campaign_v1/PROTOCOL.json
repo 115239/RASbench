@@ -1,0 +1,39 @@
+{
+  "status": "RUNNING",
+  "started_utc": "2026-11-10T18:01:59.735471Z",
+  "steps": 2000,
+  "effective_batch": 4,
+  "microbatch": 1,
+  "seeds": [
+    20261111,
+    20261112,
+    20261113
+  ],
+  "learning_rate": 1e-05,
+  "warmup_steps": 100,
+  "optimizer": "AdamW beta1=.9 beta2=.999 eps=1e-8 weight_decay=0 clip=1",
+  "schedule": "cosine to zero; native warmup implementation",
+  "scope": "matched-data offline action prediction; NOT closed-loop success",
+  "no_hyperparameter_selection": "fixed before test; not a best-tuned architecture comparison",
+  "trainable_parameters": {
+    "pi05": 52153376,
+    "gr00t": 34460032
+  },
+  "test_samples_per_episode": 4,
+  "test_episodes": 80,
+  "inference_steps": {
+    "pi05": 10,
+    "gr00t": 4
+  },
+  "code_sha256": {
+    "phase_loss.py": "9cb538d696d6fd34faa7e09c3a225209f1d5e6ffa0f7d4291ad28f1245aa0cdc",
+    "resume_contract.py": "47802fd8685e77a6700ec379b65bbb3dfcb031025228c8dd7e6e46a80cb12bb0",
+    "check_adapter.py": "df10bb544372e50632b5d1845e1b16989db7b53481b329c50c7a25001f094e09",
+    "offline_eval.py": "40594a8c00e264852e385928be75e802fd66f4b59b2e726fff6bd80760c1da38",
+    "train_pi05.py": "4c38d99f3fe96298ea55c3e85f4622a825c6e2789226eb63bd62fbb2762c877d",
+    "market_dataset.py": "b52b68e83febb508b80f2b99303ec2dd09bedcc93701756e018aa8adcd483d78",
+    "common_data.py": "d0db6e7d5d6fe4109b53fc89590122a1eeb688d05ef3cbd4a5adfb57f6c58580",
+    "groot_lora.py": "146861db4c65f3cbc501c775b56fcc1e48e7b4e58dad1fc5f50a73d174b1ad88",
+    "train_groot.py": "47a193626499f88cb84f6fc6b44590d034a3bbff5509a187d58fa21872e8ffc2"
+  }
+}

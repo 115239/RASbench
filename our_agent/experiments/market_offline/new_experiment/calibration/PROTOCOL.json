@@ -1,0 +1,8 @@
+{
+  "purpose": "pre-adaptation baseline under the same observation and normalization interface",
+  "gr00t": "all low-rank B matrices zero; frozen base output exactly unchanged by adapters",
+  "pi05": "fresh foundation initialization with zero optimizer updates",
+  "seed": 20261111,
+  "split": "frozen test",
+  "not_for_hyperparameter_selection": true
+}

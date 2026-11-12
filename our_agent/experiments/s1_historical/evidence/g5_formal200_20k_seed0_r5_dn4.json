@@ -1,0 +1,57 @@
+{
+  "acceptance_pass": true,
+  "asset": {
+    "path": "<PROJECT_ROOT>/M20_piper/M20_Piper_high_precision.usd",
+    "sha256": "7ca91879191f18f71184f7511c39250d4b52dbec503335eaf33e412b35f42d18"
+  },
+  "checkpoint": {
+    "file_count": 16,
+    "large_tensor_bytes_not_rehashed": true,
+    "metadata_sha256": "36355ab286a75c110fc755a19f64cab8ab095bc21208c466a440255f38c87e90",
+    "path": "<PROJECT_ROOT>/GR00T/checkpoints/s1_full_v3/groot_s1_full_v3_449ep_20000steps_gpu2_seed50/checkpoint-20000",
+    "total_bytes": 12583492871,
+    "tree_inventory_sha256": "00b544af6aec90b27a6c93c82916f699b481a72ca4836bc98a7a62516211eba0"
+  },
+  "created_at_utc": "2026-08-27T08:46:25.766905+00:00",
+  "episodes": 200,
+  "evaluation_seed_range": [
+    20270825,
+    20271024
+  ],
+  "gate": "G5_HELDOUT_A_FORMAL_200",
+  "latency_budget_p95_ms_exclusive": 180.0,
+  "latency_gate_pass": true,
+  "latency_p95_ms": 121.00115655921398,
+  "physics_acceptance_pass": true,
+  "policy_trace": {
+    "path": "<PROJECT_ROOT>/GR00T/evaluations/g5_heldout/formal200v3_seed0_step20000_replan5_dn4/policy_trace.jsonl",
+    "sha256": "4d6a8c4ae34af073a324952c735315c63e07bb4a0db403e67c133cdd23228cf6"
+  },
+  "real_hardware_motion_authorized": false,
+  "report": {
+    "path": "<PROJECT_ROOT>/GR00T/evaluations/g5_heldout/formal200v3_seed0_step20000_replan5_dn4/summary.json",
+    "sha256": "3456c746adc0f7bc82cce43da1e936c798d9332dcd093a24ea9f5abc6ac938fb"
+  },
+  "safety_stop_count": 0,
+  "schema": "m20-piper-groot-g5-formal200-qualification/v1",
+  "serving_config": {
+    "denoising_steps": 4,
+    "inference_rng_override": {
+      "evaluation_and_collection_only": true,
+      "kind": "torch_global_rng",
+      "reset_on_server_start": true,
+      "seed": 0
+    },
+    "replan_steps": 5
+  },
+  "simulator_exit": 0,
+  "status": "ACCEPTANCE_PASS",
+  "success_rate": 0.915,
+  "successes": 183,
+  "successful_episode_tcp_error_max_m": 0.04880473052789499,
+  "training_evaluation_seed_overlap": 0,
+  "training_summary": {
+    "path": "<PROJECT_ROOT>/vla_work/sim_outputs/s1_physx_50k/summary.json",
+    "sha256": "9dc9fe19b96b7f26de3499be1d96e99aec5f4eac6a724fb73012fcec5adfbbe5"
+  }
+}

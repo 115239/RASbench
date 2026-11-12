@@ -1,0 +1,73 @@
+{
+  "status": "OFFLINE_COMPARISON_COMPLETE",
+  "test_episodes": 80,
+  "test_observations": 320,
+  "training_seeds": 3,
+  "comparison_unit": "mean first-action physical-unit MAE per episode",
+  "ci": "paired crossed bootstrap of seed pairs and episodes stratified by question, 10000 resamples",
+  "limitations": [
+    "three training seeds only",
+    "four deterministic observations per held-out episode",
+    "LoRA placement and parameter counts differ",
+    "not closed-loop or real-robot success",
+    "inference diffusion steps differ; shared GPU latency is diagnostic only",
+    "multiple metrics; confidence intervals are descriptive, not a familywise significance claim"
+  ],
+  "metrics": [
+    {
+      "metric": "base_vx_m_s",
+      "pi05_mean": 0.010747596621513367,
+      "gr00t_mean": 0.042963914573192596,
+      "delta_gr00t_minus_pi05": 0.03221631795167923,
+      "ci95_low": 0.029462458100169897,
+      "ci95_high": 0.034839943330734965,
+      "lower_is_better": true
+    },
+    {
+      "metric": "base_vy_m_s",
+      "pi05_mean": 0.0,
+      "gr00t_mean": 0.0,
+      "delta_gr00t_minus_pi05": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "lower_is_better": true
+    },
+    {
+      "metric": "base_yaw_rad_s",
+      "pi05_mean": 0.011459002271294594,
+      "gr00t_mean": 0.07806076854467392,
+      "delta_gr00t_minus_pi05": 0.06660176068544388,
+      "ci95_low": 0.061652973853051664,
+      "ci95_high": 0.07170465141534806,
+      "lower_is_better": true
+    },
+    {
+      "metric": "tcp_translation_m",
+      "pi05_mean": 0.0006013497477397323,
+      "gr00t_mean": 0.009760715998709202,
+      "delta_gr00t_minus_pi05": 0.009159366600215435,
+      "ci95_low": 0.008834710135124624,
+      "ci95_high": 0.009484307724051178,
+      "lower_is_better": true
+    },
+    {
+      "metric": "tcp_rotation_rad",
+      "pi05_mean": 0.0016696773236617446,
+      "gr00t_mean": 0.02914775349199772,
+      "delta_gr00t_minus_pi05": 0.02747807465493679,
+      "ci95_low": 0.026447887904942034,
+      "ci95_high": 0.028477303916588426,
+      "lower_is_better": true
+    },
+    {
+      "metric": "gripper_closure",
+      "pi05_mean": 0.04694153741002083,
+      "gr00t_mean": 0.28158748149871826,
+      "delta_gr00t_minus_pi05": 0.23464593291282654,
+      "ci95_low": 0.20520017631351947,
+      "ci95_high": 0.2639362096786499,
+      "lower_is_better": true
+    }
+  ],
+  "closed_loop_success_rate": null
+}

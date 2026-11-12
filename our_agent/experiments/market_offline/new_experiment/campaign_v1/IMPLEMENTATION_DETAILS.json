@@ -1,0 +1,22 @@
+{
+  "internal_action_horizon": {
+    "pi05": 15,
+    "gr00t": 40
+  },
+  "supervised_action_horizon": 15,
+  "gr00t_padding": "unsupervised trailing positions masked",
+  "inference_steps": {
+    "pi05": 10,
+    "gr00t": 4
+  },
+  "normalization": "shared train-only minmax; constants restored to their train constant",
+  "gr00t_visual_preprocessing": "native shortest edge 256, crop fraction .95; training augmentation enabled; eval deterministic",
+  "pi05_visual_preprocessing": "native OpenPI 224 images and training augmentation; eval deterministic",
+  "optimizer_implementations": "Optax versus PyTorch; native warmup initialization differs slightly",
+  "validation_role": "reported only; no post-hoc hyperparameter or checkpoint selection in campaign_v1",
+  "training_samples_seen_per_run": 8000,
+  "training_dataset_valid_frames": 396830,
+  "scope": "short-budget adaptation; not full convergence or best-tuned model capacity",
+  "language_context": "Archived task and current phase instruction are supplied to both models; autonomous phase selection is not measured.",
+  "state_preprocessing": "Both use train-only minmax; native GR00T state outlier clipping and Pi tokenization are retained."
+}

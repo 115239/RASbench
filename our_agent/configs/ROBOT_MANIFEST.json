@@ -1,0 +1,43 @@
+{
+  "entrypoint": "assets/M20_piper/piper_piper_d435i_sensors.usda",
+  "source": "<ROBOT_ASSET_ROOT>/piper_piper_d435i_sensors.usda",
+  "unresolved_dependencies": [],
+  "files": [
+    {
+      "path": "assets/M20_piper/piper_piper_d435i_sensors.usda",
+      "source": "<ROBOT_ASSET_ROOT>/piper_piper_d435i_sensors.usda",
+      "sha256": "e645194e0ecdceb3aa5e82747ec695483e646b23e85dde7c87334765ffaec5d7",
+      "bytes": 9826
+    },
+    {
+      "path": "assets/M20_piper/M20_Piper_high_precision.usd",
+      "source": "<ROBOT_ASSET_ROOT>/M20_Piper_high_precision.usd",
+      "sha256": "7ca91879191f18f71184f7511c39250d4b52dbec503335eaf33e412b35f42d18",
+      "bytes": 58302059
+    },
+    {
+      "path": "assets/M20_piper/adapter_board/M20Pro_Piper_adapter_v6_tight_outer_frame.usd",
+      "source": "<ROBOT_ASSET_ROOT>/adapter_board/M20Pro_Piper_adapter_v6_tight_outer_frame.usd",
+      "sha256": "2eeadeeb1ddf825b14194b40a95c1736d563a27403e334208b73806d5cd054ee",
+      "bytes": 184861
+    },
+    {
+      "path": "assets/M20_piper/d435i_colored_visual.usd",
+      "source": "<ROBOT_ASSET_ROOT>/d435i_colored_visual.usd",
+      "sha256": "099c2969f555f88db140fbf0a43780811b8a39f29a876fe811987b402dfeb4c5",
+      "bytes": 14178669
+    },
+    {
+      "path": "assets/M20_piper/piper_d435i_centered_mount.usd",
+      "source": "<ROBOT_ASSET_ROOT>/piper_d435i_centered_mount.usd",
+      "sha256": "5c3e201bdc4a2b344991f72f17ef3cd7b3f973e030ecbab94fc54c72bdfe3920",
+      "bytes": 322495
+    },
+    {
+      "path": "assets/M20_piper/piper_piper_d435i.usda",
+      "source": "<ROBOT_ASSET_ROOT>/piper_piper_d435i.usda",
+      "sha256": "bc8d593358b7393d9d9f20eb9c655921ac4ae0b969002cd716e1e6c8831b8261",
+      "bytes": 3589
+    }
+  ]
+}

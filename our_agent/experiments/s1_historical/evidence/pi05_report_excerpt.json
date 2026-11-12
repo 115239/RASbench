@@ -1,0 +1,23 @@
+{
+  "source_type": "archived_training_retrospective",
+  "source_document_sha256": "e67702ed5f53aec641c793a08156fd85bc4a0e776ed12917ef7c46f35edef384",
+  "excerpts": [
+    {
+      "line": 309,
+      "text": "| **canary v3** | 17 ep | **250** | **200 held-out** | **163/200 = 81.5%** | 首个过泛化门 |"
+    },
+    {
+      "line": 347,
+      "text": "选点结果：**step 250（\"full250\"）胜出** —— held-out 200 回合 **150/200 = 75%**、0 安全停机、成功回合 TCP 最大误差 0.0497 m（门槛 0.05 m）。冻结为 `FINAL_S1_FROZEN`，清单 `vla_work/evaluations/s1/final_s1_freeze.json`。"
+    },
+    {
+      "line": 487,
+      "text": "| Pi 0.5 | S1 抓放 canary v3 | 17 ep / 1700 帧 | v1@1000 续训，lr 5e-6，hard 25%，250 步 | 16/17 训练 seed；**163/200 = 81.5%** held-out |"
+    },
+    {
+      "line": 488,
+      "text": "| Pi 0.5 | S1 full v1（冻结） | 449 ep / 44900 帧 | v3@250 续训，lr 2e-6，batch 16，250 步 | **150/200 = 75%** held-out，TCP max 0.0497 m |"
+    }
+  ],
+  "episode_traces_available": false
+}

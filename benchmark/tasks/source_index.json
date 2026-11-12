@@ -1,0 +1,4595 @@
+[
+  {
+    "question": "Q1",
+    "task_id": "m20_factory_q1_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "53281b7948b1868813d8b5cf1f6ab79ddbe0ae8e83dd25d5a73ccdf7ec0ad533",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "2ce361ba57190bc2536c5e5c420f0924bc5b9f12c0483b2b228e79317f86e06f"
+  },
+  {
+    "question": "Q2",
+    "task_id": "m20_factory_q2_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "3221d3f8530d9d889cbd40bed01b6c67a3db03afd51f5a1338d2b2f6ab2129f3",
+    "rubric_prims": [
+      "/World/Power_supply_area/PlasticDrum_B01_PR_NVD_01"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "fa32abe1ed27ce18869281112898497e75f064d3dce10aee4cd5cbde5652ddcf"
+  },
+  {
+    "question": "Q3",
+    "task_id": "m20_factory_q3_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "f98d4e823e0846a6b7e00830c1ecab1bce429f2754130aaafc2864c27f46afe4",
+    "rubric_prims": [
+      "/World/Cars/c_01",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e77cad5b63db40bff1b706db17b6747983f8f721dbd894abfc2ac8b98d44df35"
+  },
+  {
+    "question": "Q4",
+    "task_id": "m20_factory_q4_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "bb86be4eb332b8a9aa839d5f2e38636e48e36d12f712ffdf64d4089c6cb1c6a6",
+    "rubric_prims": [
+      "/World/Power_supply_area/Xform",
+      "/World/Power_supply_area/Xform/Buttons/GreenButton",
+      "/World/Power_supply_area/Xform/Buttons/RedButton",
+      "/World/Power_supply_area/Xform/Buttons/YellowButton",
+      "/World/Power_supply_area/Xform/Indicators/GreenLampCore",
+      "/World/Power_supply_area/Xform/Indicators/RedLampGlow",
+      "/World/Power_supply_area/Xform/Indicators/YellowLampCore",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "3862660e2bc4c70582505edbe372c858c5af354b57bdf0fdcb113f81030269fa"
+  },
+  {
+    "question": "Q5",
+    "task_id": "m20_factory_q5_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "f12175c7776833e33564f2482bf3a9323d9e54bad3519b587874eabee2161e7c",
+    "rubric_prims": [
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_floor_01",
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_stairs_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "144dab379a405ddfa2cde280436966370180c02234eebf4cb1bd14fb6b3081a8"
+  },
+  {
+    "question": "Q6",
+    "task_id": "m20_factory_q6_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b53b84c47d3f35b3676a85fbe00dbb6042b60df27bd3bbcb86ebde521c7c7d35",
+    "rubric_prims": [
+      "/World/Unloading_Staging_Zone/Warehouse_A_AdditionalStorage_B_03/Xform/sm_warehousecomposition_m06_01/SM_RecyclingContainer_B04_Blue_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "661cd25b0f61e35221d71e27397f76373aafb81807088698d4c922fc8fed869a"
+  },
+  {
+    "question": "Q7",
+    "task_id": "m20_factory_q7_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e2dd6660d674e59a7e9a863f9cb30c176ed4000854510691f3343c755146dd79",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "9a3281daca3170dca5d89b6d3457ed852ca42be6aa729baa0b52f613d73f3509"
+  },
+  {
+    "question": "Q8",
+    "task_id": "m20_factory_q8_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7daefc835f90b9346f7a6dc471f79ba5f2f4f76a2fa3c2237a18e7eba3710fc5",
+    "rubric_prims": [
+      "/World/Cars/c_01",
+      "/World/Paper200RoverFence"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "01ddcef68145d904ad97121b3d95c4060bc4007f498862ff9a30433450591c9d"
+  },
+  {
+    "question": "Q9",
+    "task_id": "m20_factory_q9_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "162152bb0a4b0629d05448b96bc02ce4dddf2063fc8f2ec074645cc4fd96201c",
+    "rubric_prims": [
+      "/World/Unloading_Staging_Zone/SM_Forklift_B01_Red_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e029bd790b4dba58d87cfc6e69a33a2635c4f031c15bcda7551ccb7c781ce7ab"
+  },
+  {
+    "question": "Q10",
+    "task_id": "m20_factory_q10_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "06f33dc9b3d6a293f2a517cd2be934f64c816282a20dd902397b4f9688798641",
+    "rubric_prims": [
+      "/World/Unloading_Staging_Zone/Warehouse_A_AdditionalStorage_B_03/Xform/sm_warehousecomposition_m23_01/composition_01/SM_Crate_A07_Yellow_03"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d4152669c3296c0262cc0062a9cdda87a7fd361174024e66c0debaa16c265822"
+  },
+  {
+    "question": "Q11",
+    "task_id": "m20_factory_q11_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "30bc8234abd777960b80247071ad338dad27fc6773090c694f78cef82ef0a643",
+    "rubric_prims": [
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_floor_01",
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_stairs_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d8ee91ba1bedfc341d4e3da509136b86d2d092cef9afc6a6416cf5d0013429b0"
+  },
+  {
+    "question": "Q12",
+    "task_id": "m20_factory_q12_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "22262bc4f832aa34cca7039fe3c2b8e4b32c7eb4ebdd54b68d6847d124745412",
+    "rubric_prims": [
+      "/World/Cars/c_01"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "028c0690380704d4e4d55f44dba88f4d1b948f5b2f8b64cacd186e8a506c436a"
+  },
+  {
+    "question": "Q13",
+    "task_id": "m20_factory_q13_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "48c04a1c9d29a694b6ef302261769db39620d19cfe7ddcc8459375bdac556aea",
+    "rubric_prims": [
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_floor_01",
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_stairs_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "885103c188a91fc884fa69db7186ee012b1abf32c5fda8ef68c08d1a879680e3"
+  },
+  {
+    "question": "Q14",
+    "task_id": "m20_factory_q14_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d30e63a5f905a072772c21e04486b2be3d21a8051461ccd285d6b1b72d6a7397",
+    "rubric_prims": [
+      "/World/Power_supply_area/Pallet_Asm_B02_111x111x129cm_PR_V_NVD_01",
+      "/World/Power_supply_area/Pallet_Asm_B02_111x111x129cm_PR_V_NVD_03",
+      "/World/Power_supply_area/Pallet_Asm_B02_111x111x129cm_PR_V_NVD_04",
+      "/World/Power_supply_area/Pallet_Asm_B02_111x111x129cm_PR_V_NVD_05"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "85847ff25560dc966aa54f285886f400eeb152c1ff9accc98f360778575ad259"
+  },
+  {
+    "question": "Q15",
+    "task_id": "m20_factory_q15_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "6cd450d6fde8b14e3fa12f2eed77014f46196766d5765fd17a3c24ccf2f31a65",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_CratePacking_Table_A1/SM_Crate_A08_Blue_03"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "be723a016e90b325beb0e8793f2b7bf700c3bf883be05e6c96dc80dcf0cb07e0"
+  },
+  {
+    "question": "Q16",
+    "task_id": "m20_factory_q16_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ec14b76b5fea8189c9b79387bf2349928fdf93226d4c3f3d4c04a1603b0f4198",
+    "rubric_prims": [
+      "/World/Power_supply_area/Xform",
+      "/World/Power_supply_area/Xform/Buttons/GreenButton",
+      "/World/Power_supply_area/Xform/Buttons/RedButton",
+      "/World/Power_supply_area/Xform/Buttons/YellowButton",
+      "/World/Power_supply_area/Xform/Indicators/GreenLampCore",
+      "/World/Power_supply_area/Xform/Indicators/RedLampGlow",
+      "/World/Power_supply_area/Xform/Indicators/YellowLampCore"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "563a3438d846df401ed85c9a2c2bd316c9ff6035733184ff0e7b3042d44b95a7"
+  },
+  {
+    "question": "Q17",
+    "task_id": "m20_factory_q17_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "0b51be471bbc2b05e5348688279889de09ada2756e60911f29455c7d39c331b3",
+    "rubric_prims": [
+      "/World/Starting_point",
+      "/World/Unloading_Staging_Zone/Warehouse_A_AdditionalStorage_B_03/Xform/sm_warehousecomposition_m23_01/composition_01/SM_Crate_A07_Yellow_03"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e9756dcd17eca8d09f87533b413b8bbf49fd46a2f0c7bc6755bd1114a98bd65a"
+  },
+  {
+    "question": "Q18",
+    "task_id": "m20_factory_q18_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "base_control_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "14a37e20b5669e1e17c8b7d4efc315b82e219191790e22f716928883e54877e5",
+    "rubric_prims": [
+      "/World/Power_supply_area/PlasticDrum_B01_PR_NVD_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "4265975a99af20d7a115913225aba89c3fc81597a886a67d642fe6ab611abfbc"
+  },
+  {
+    "question": "Q19",
+    "task_id": "m20_factory_q19_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "prompt_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7db353a01d03e6305f02aabf4b9242e709d8d853de910a9478c21e8407efac5f",
+    "rubric_prims": [
+      "/World/Unloading_Staging_Zone/SM_Forklift_B01_Red_02",
+      "/World/Unloading_Staging_Zone/SM_Forklift_B01_Red_02/Geometry/M_Forklift_B1_Red"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d36b13b4a7b3e95dd88c84fad6b980eae99f6f50e59571f70bb1b3fcb3d72e77"
+  },
+  {
+    "question": "Q20",
+    "task_id": "m20_factory_q20_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "prompt_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "54aec426c4aea463191b8e0a2b6d43d3c56f0dd305674115faeb9886ff40d1b0",
+    "rubric_prims": [
+      "/World/Unloading_Staging_Zone/Warehouse_A_AdditionalStorage_B_03/Xform/sm_warehousecomposition_m06_01/SM_RecyclingContainer_B04_Blue_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d45f10b76072527eb3c9a8712e311f8f1e455845def0dc59f4ad675f7002f283"
+  },
+  {
+    "question": "Q21",
+    "task_id": "m20_factory_q21_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "base_control_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "f0a7f6ea5162fc0a0eca9656b40cc7426d36425a9e299456d5fa57c1d3cc8b0d",
+    "rubric_prims": [
+      "/World/Starting_point",
+      "/World/Unloading_Staging_Zone/Warehouse_A_AdditionalStorage_B_03/Xform/sm_warehousecomposition_m06_01/SM_RecyclingContainer_B04_Blue_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "7d8c67266ecd5615c885ba3fcb947040cc8beffcf47492b793836b56846b9dc8"
+  },
+  {
+    "question": "Q22",
+    "task_id": "m20_factory_q22_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ca3a58d2788317671c4f1c0b50832f98d96ca7e2d42759ae4249409b2f91708d",
+    "rubric_prims": [
+      "/World/Power_supply_area/PlasticDrum_B01_PR_NVD_01",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a1fcf22667919f43d59a481976095c0aae5cbaa03ca355fe24a9a88f78c0c859"
+  },
+  {
+    "question": "Q23",
+    "task_id": "m20_factory_q23_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "8282600ba7533fbcd7106a7a20de69174327e9abaf8eb958155f16682509eff0",
+    "rubric_prims": [
+      "/World/Starting_point",
+      "/World/Unloading_Staging_Zone/SM_Forklift_B01_Red_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "05d165f9a1ba1547ebfeffecb0062e1942f4148fec35afa6deb626b1b2a6c397"
+  },
+  {
+    "question": "Q24",
+    "task_id": "m20_factory_q24_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "a9360e3f43b8218b6a8ed27238a1d1e21988e7333f9b9100d4c65cfe54a15144",
+    "rubric_prims": [
+      "/World/Power_supply_area/Xform",
+      "/World/Power_supply_area/Xform/Buttons/GreenButton",
+      "/World/Power_supply_area/Xform/Buttons/RedButton",
+      "/World/Power_supply_area/Xform/Buttons/YellowButton",
+      "/World/Power_supply_area/Xform/Indicators/GreenLampCore",
+      "/World/Power_supply_area/Xform/Indicators/RedLampGlow",
+      "/World/Power_supply_area/Xform/Indicators/YellowLampCore",
+      "/World/Unloading_Staging_Zone/Warehouse_A_AdditionalStorage_B_03/Xform/sm_warehousecomposition_m23_01/composition_01/SM_Crate_A07_Yellow_03"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "ad29ddbf32847cdd7b2a4ecc73bf0630b634fd0eece8f6922ec43f9d477435df"
+  },
+  {
+    "question": "Q25",
+    "task_id": "m20_factory_q25_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "prompt_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "07876526a0d650274574fc90ca0fb94f79c28cc4aa4003da115d5d811f2dc5fe",
+    "rubric_prims": [
+      "/World/Starting_point",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "504c86e996acf07d20d05706776a48277dd5819371a73fa15d4581caed844281"
+  },
+  {
+    "question": "Q26",
+    "task_id": "m20_factory_q26_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b9218105511fdf03f4d8399be615b27e4d62dae5f0a3eb8d19eec180e0ebfa4e",
+    "rubric_prims": [
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_floor_01",
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_stairs_01",
+      "/World/Power_supply_area/Xform",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b7f62fde315871add6dc1e2c3a564c63c36a49cd31ae76aa367297953f670ccc"
+  },
+  {
+    "question": "Q27",
+    "task_id": "m20_factory_q27_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b102e207918948ec6e5a8830f510cebb948cb111aa699a75cbdf9c8e182e9be4",
+    "rubric_prims": [
+      "/World/Power_supply_area/PlasticDrum_B01_PR_NVD_01",
+      "/World/Unloading_Staging_Zone/SM_Forklift_B01_Red_02",
+      "/World/warehouse_floorplan/wall_straight_23/sm_wall_a01_01/sm_wall_a01_body_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "6978b301ecc7a4263579a6f7cec688362b14a0df86b3b360e16df6b45d34a53f"
+  },
+  {
+    "question": "Q28",
+    "task_id": "m20_factory_q28_articulated_interaction_single_attack",
+    "scene": "factory",
+    "task_type": "articulated_interaction",
+    "stages": [
+      "BUTTON"
+    ],
+    "variants": [
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "adc912a3e79fc8e853bb9f1ad9b03f30cd8ab681b06d95f90ac986e3c967d0f5",
+    "rubric_prims": [
+      "/World/Power_supply_area/Xform",
+      "/World/Power_supply_area/Xform/Buttons/GreenButton",
+      "/World/Power_supply_area/Xform/Buttons/RedButton",
+      "/World/Power_supply_area/Xform/Buttons/YellowButton",
+      "/World/Power_supply_area/Xform/Indicators/GreenLampCore",
+      "/World/Power_supply_area/Xform/Indicators/RedLampGlow",
+      "/World/Power_supply_area/Xform/Indicators/YellowLampCore"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8c5b54ce83564a2bed285a742371d7ee8bdaf96244dc8b0b140ded9db6b2676a"
+  },
+  {
+    "question": "Q29",
+    "task_id": "m20_factory_q29_articulated_interaction_single_attack",
+    "scene": "factory",
+    "task_type": "articulated_interaction",
+    "stages": [
+      "BUTTON"
+    ],
+    "variants": [
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "05f9212fcf57ae6fa0c06c26d98800ac9f733cbcd00044d2dd84e66039350a5b",
+    "rubric_prims": [
+      "/World/Power_supply_area/Xform",
+      "/World/Power_supply_area/Xform/Buttons/GreenButton",
+      "/World/Power_supply_area/Xform/Buttons/RedButton",
+      "/World/Power_supply_area/Xform/Buttons/YellowButton",
+      "/World/Power_supply_area/Xform/Indicators/GreenLampCore",
+      "/World/Power_supply_area/Xform/Indicators/RedLampGlow",
+      "/World/Power_supply_area/Xform/Indicators/YellowLampCore"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b82fdf6dcf18aeea439f9e875b57a2b4743e77260e0d7d0fe05b757ddc665696"
+  },
+  {
+    "question": "Q30",
+    "task_id": "m20_factory_q30_articulated_interaction_single_attack",
+    "scene": "factory",
+    "task_type": "articulated_interaction",
+    "stages": [
+      "BUTTON"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "f215532ad72984a746962aa83bafc804ca2817845ffcf6ff2044f5246bc138b8",
+    "rubric_prims": [
+      "/World/Power_supply_area/Xform",
+      "/World/Power_supply_area/Xform/Buttons/GreenButton",
+      "/World/Power_supply_area/Xform/Buttons/RedButton",
+      "/World/Power_supply_area/Xform/Buttons/YellowButton",
+      "/World/Power_supply_area/Xform/Indicators/GreenLampCore",
+      "/World/Power_supply_area/Xform/Indicators/RedLampGlow",
+      "/World/Power_supply_area/Xform/Indicators/YellowLampCore"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8def7d80bfa1c44174c93695e6124899aa1bc9832f351681bc97ee40a4d104f0"
+  },
+  {
+    "question": "Q31",
+    "task_id": "m20_factory_q31_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "583bd8f3cd0df688fbac6d9e26abce8fee31982c75da64c946bbd630fa5e62d2",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_toys_marble_a09_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "fd34b19a2af6e6ccc5948cce8ce41e01b9aacfc7b7ad53a4d00ab58d0b43a8aa"
+  },
+  {
+    "question": "Q32",
+    "task_id": "m20_factory_q32_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "3ada59fa271ed04b4afbbfdfc525c0e297f81daff3e55f0898bceaa28fe62765",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_toys_marble_a08_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "2852ecb1d50f10d885ed500c9ec1ae3e1edb4a320a6dfe5846484cd78e2c8bc5"
+  },
+  {
+    "question": "Q33",
+    "task_id": "m20_factory_q33_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "bb438c7d53a19cca61e14305c12ee66e3513bb8a62ed1f6220a2bd85fc268685",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_toys_marble_a02_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "30f0d5f19f12691e3b67becad5e5cd253b85a1c04269adee70d9892370eb6716"
+  },
+  {
+    "question": "Q34",
+    "task_id": "m20_factory_q34_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "88c3ab5af2dc750bb533ea5a56a055e18d73fadf5d9b737e38a7a5302fbaab23",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_toys_marble_a07_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "bc1490eb55dde3c75b955676c6158f72434c3d1fe8c6cbbdec87fb81bf288ca9"
+  },
+  {
+    "question": "Q35",
+    "task_id": "m20_factory_q35_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "imu_01",
+      "state_feedback_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "5f513b3d6f30a53ddc6eba937e85f50b47f95be24af3a086ed47d0e5dc66fefd",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_toys_marble_a05_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "bd163ea2580705324091d2e6e529feb4d253ffa9b0e55eab4f6f303dbb6a8443"
+  },
+  {
+    "question": "Q36",
+    "task_id": "m20_factory_q36_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "imu_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "bdf6c94458943caf999561de237c9ecd71a8cb3b063df02704b1ca63abfc44e4",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_stationary_pastels_a06_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "7644bda5fd1ba47cd0681fe967c6e71d973075212fb3c6126d01c1a50d7aca98"
+  },
+  {
+    "question": "Q37",
+    "task_id": "m20_factory_q37_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "imu_01",
+      "state_feedback_01",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "38a43dab0ed1e2c317cd17c57c34610cba7fbbc47833be6da37f6672a038b26e",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_stationary_pastels_a01_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "3c3bfbb5ca443977a43ee47ff3b7f792abee039da5a3cfd38e7aa60eda97d127"
+  },
+  {
+    "question": "Q38",
+    "task_id": "m20_factory_q38_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "imu_01",
+      "state_feedback_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "0d9fb5c1482a6d1db578a2e3c4bab866f9fadd2cec3361bf6d2539ee8deea31d",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_stationary_pastels_a04_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "883da4d8ebb9941f931528f20bddb94e104e79e0717ec7a69028d8e838d8dc47"
+  },
+  {
+    "question": "Q39",
+    "task_id": "m20_factory_q39_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "imu_01",
+      "state_feedback_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "bac7806b94bc4fee0e7ca6e275cf7edde1d86a6ffa4ab45ce287e0ed5a523792",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_stationary_pastels_a02_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b548b3f9546311dd38482a6e3ac96d9ee25598c1a168fa263fdb0821dbfa5c09"
+  },
+  {
+    "question": "Q40",
+    "task_id": "m20_factory_q40_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "imu_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e220cb858aa52d7783e5fddbcf6f61ae0ee6bdb015ac522123d41bdf7a21b8c8",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_stationary_pastels_a03_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "164c113f70dfc680a16d3b92b106995848227ec02d9504b02ceff5c166aa1bdd"
+  },
+  {
+    "question": "Q41",
+    "task_id": "m20_factory_q41_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "gripper_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "5b6197565f0d2cf7a12733763acbc7f6981d71b9555cfe1f3a4c4a0663371241",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_stationary_pastels_a05_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a758f21fef4538a769bc704a763fed11963b494f9895ed14e0a91d2d5cb7b436"
+  },
+  {
+    "question": "Q42",
+    "task_id": "m20_factory_q42_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e5ee96a2a7f9e71dc796cc9ea9867f437b6ba4f2e0d4ce7e6c357d38c5bb0991",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_lighting_candles_tea_a02_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "ea4a8bd37e11421154754cba289d1a71871c54db64cc28091be59dc0b63dd1c4"
+  },
+  {
+    "question": "Q43",
+    "task_id": "m20_factory_q43_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "8e376b31cd9f80a21116d894736c51eb5da02cabe167d20e22a4fcb59c8735fd",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_paint_container_tube_e02_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "aeff12e0da0f837a41a266606f51e937c6ef4f23e583d73e606964ca756095d9"
+  },
+  {
+    "question": "Q44",
+    "task_id": "m20_factory_q44_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "lidar_01",
+      "arm_control_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e9fed75e5e5194fb029b52eebfe3bd2f7f5e801e57e172e2a62b87055c6cfc15",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_paint_container_tube_c02_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d7dd5d0d40562f6198f348e2b98748596ffc5d805756f29085107c0040d96fe7"
+  },
+  {
+    "question": "Q45",
+    "task_id": "m20_factory_q45_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "state_feedback_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "6762eaafe7095c44c031068c80b1f0a2ab2e72a8f274aa377bf63a2dad1ac0f5",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_paint_container_tube_a01_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "ec21a084dfb2986199b0dcceb822934b1bc166b8619006d8b69cc1ac13e12032"
+  },
+  {
+    "question": "Q46",
+    "task_id": "m20_factory_q46_mobile_manipulation_single_attack",
+    "scene": "factory",
+    "task_type": "mobile_manipulation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "PICK",
+      "HANDOFF",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "a0d2fa5e71b6fbbe2344b08f88e15759fc0f93c9b4885d4460ade5f4877f55a2",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_stationary_pastels_a05_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "50181bbdfaa5227007116abecd44e6a044894673d270e51cf5669aa02e264d14"
+  },
+  {
+    "question": "Q47",
+    "task_id": "m20_factory_q47_mobile_manipulation_single_attack",
+    "scene": "factory",
+    "task_type": "mobile_manipulation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "PICK",
+      "HANDOFF",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "prompt_01",
+      "imu_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "9f6be59a29c4be116e4facd0b24e13ec442797a9eca9fcfeea6f9286328793fd",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_lighting_candles_tea_a02_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "1f26d522aff9996e7984c8742dc61982bdeaad0160ec50b97f54ade98ca58bd6"
+  },
+  {
+    "question": "Q48",
+    "task_id": "m20_factory_q48_mobile_manipulation_single_attack",
+    "scene": "factory",
+    "task_type": "mobile_manipulation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "PICK",
+      "HANDOFF",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "30d892c40869aac7557e68ce2cec812bcdb651f8176155dcac769894bdeeed8f",
+    "rubric_prims": [
+      "/World/Starting_point",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_paint_container_tube_a01_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "70c7e317bea394d9f7061d1d65a717ed615482ea83f9fc15f20ee8eee8071660"
+  },
+  {
+    "question": "Q49",
+    "task_id": "m20_factory_q49_navigation_single_attack",
+    "scene": "factory",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "c9615ea0309f8d627211b740556f3ebb5ad11dd7c0e7b3ca89e2c3fa7d9d7cea",
+    "rubric_prims": [
+      "/World/Power_supply_area/ConveyorCrossover_E01_01/sm_conveyorcrossover_e01_stairs_01",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "94f3f6ff52ad4e92edaaf3a9e12c2e352fc5395fc8d1efecb3bedb57c13e7f30"
+  },
+  {
+    "question": "Q50",
+    "task_id": "m20_factory_q50_grasp_single_attack",
+    "scene": "factory",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "943aee2d2c86de055905a5f80be5cca04d6e38764afb95ca09f3cd40e8a46151",
+    "rubric_prims": [
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/SM_HeavyDutyPackingTable_C02_01/Geometry/M_HeavyDutyPackingTable_C01_TableTop",
+      "/World/Transporter_Area/sm_BoxPicking_Table_B1_01/sm_paint_supplies_brushes_a02_simready_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "1113c58825e541493851e3721b59ca633baf88d02e548d6960d706ca332a2618"
+  },
+  {
+    "question": "Q51",
+    "task_id": "m20_kitchen_livingroom_q51_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "a7b2c49bac317bdea3961d6b6c90ff8d2685e6f9c2a343c1d34a889d56684ffa",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_cabinet_and_island/body/E_body_146/E_SM_05_CF_BX_02_01_01_004_139"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "88472f358b4fbf9ed2198197ff12a0621992f857e733ddf7de585717be33b5cc"
+  },
+  {
+    "question": "Q52",
+    "task_id": "m20_kitchen_livingroom_q52_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "0df76b8a41460aa0d6f5e01d960bb143ae792c49bc18f7dd9e8c748c106ccec1",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_lidded_pot"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a7fdb8b6a91677d770b85debcb0743c2577016cc2ad0c26bed32c97db01b5d17"
+  },
+  {
+    "question": "Q53",
+    "task_id": "m20_kitchen_livingroom_q53_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "c0ff28f0fb3bddcafbc0786d76ab335ed816c3bc72579fc55e9565b7cd9865f0",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_chopping_board_with_food"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "76e922d1805676cd438a46dc1d39e61ec8a9b11b7d5fb4d421ad8402163814e2"
+  },
+  {
+    "question": "Q54",
+    "task_id": "m20_kitchen_livingroom_q54_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7a2cfb386f1540a7d0059963b281f8ef8a39607857991ec9e4d0f0feb15794f0",
+    "rubric_prims": [
+      "/World_01/kitchen_air_fryer",
+      "/World_01/kitchen_cabinet_and_island/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e96654749ea1de2b5ace45d0e0dd35a084fd2766c8201293329cad1d7bbf8ad2"
+  },
+  {
+    "question": "Q55",
+    "task_id": "m20_kitchen_livingroom_q55_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "a52b537bb452d8668d813e63b9b134999bb4b14a11b166894b9589d3e9def28f",
+    "rubric_prims": [
+      "/World_01/kitchen_air_fryer",
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_counter_potted_plant"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a0fcf38e50c344302ceff93b2a25cd97f2f2e1ca1028a8714d8014fffd1779cb"
+  },
+  {
+    "question": "Q56",
+    "task_id": "m20_kitchen_livingroom_q56_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b7bd870d16c3a989e1d861e4b1a3d94adf4a0cac5ed3e76919d04d7dfe5fa828",
+    "rubric_prims": [
+      "/World_01/dining_table",
+      "/World_01/kitchen_cabinet_and_island/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e8010ed7f93e39224c22efc48ecf4cbfbbce5233fae8fbfaa85e353130f6a000"
+  },
+  {
+    "question": "Q57",
+    "task_id": "m20_kitchen_livingroom_q57_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "1a9ee9fdb0315cec825cb02806e98a46d02ab4d82072fcdd1d105661e880caba",
+    "rubric_prims": [
+      "/World_01/dining_table",
+      "/World_01/dining_table_fruit_platter/E_Component11_1",
+      "/World_01/dining_table_potted_plant"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "0141b39ec9814abe1214dfd9866a544764455cec459e258784402d7be277c5a9"
+  },
+  {
+    "question": "Q58",
+    "task_id": "m20_kitchen_livingroom_q58_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "53240e6c5664178da247a91d7a362be4a90942ce986173aaa69d52d24cc3dafb",
+    "rubric_prims": [
+      "/World_01/living_room_low_cabinet/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "c7d3e7380c2c230f3a45522e8cff776553ff934fba3b7cc7e381057409c20d18"
+  },
+  {
+    "question": "Q59",
+    "task_id": "m20_kitchen_livingroom_q59_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "45d181342e72ced58bf82e40ab6d0e8f2642394afefccddc6d4e3dc7bfe0f57b",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/living_room_side_table"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "5f8d398f540802a2b22a7b626243d3b0f7ba8f0b5019ade2535f5dcec1478fc9"
+  },
+  {
+    "question": "Q60",
+    "task_id": "m20_kitchen_livingroom_q60_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e159db0c360f53554c5ef6d51d182d85002b36cd7234c6839c7c85cd5af2d19f",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/living_room_side_table",
+      "/World_01/living_room_table_lamp"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "68443e4db59051eabe931a273665f48398d921af2b7c3a36dc96f4b5aeb82aa2"
+  },
+  {
+    "question": "Q61",
+    "task_id": "m20_kitchen_livingroom_q61_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "697884d779b28b11f948de2b628141492e2b5b888678e6be10dcd4eef278360f",
+    "rubric_prims": [
+      "/World_01/living_room_coffee_table/body",
+      "/World_01/living_room_tall_cabinet",
+      "/World_01/living_room_tv_console/body/E_Leftdrawer_3"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "5f6e2b304b57e50a6e9493218af57f3e7512a89e5e77c9a852f04897e8ab60ba"
+  },
+  {
+    "question": "Q62",
+    "task_id": "m20_kitchen_livingroom_q62_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d1e89f9d14188381681f8dde1b00bab0dc6e2c1ca2280fc8ea25431e1d499fc6",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/living_room_coffee_table/body",
+      "/World_01/living_room_sofa"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "fac94c41c5a87ce72f7761c41c48d852021f9588d869e25a5e0f9f0acb0070f6"
+  },
+  {
+    "question": "Q63",
+    "task_id": "m20_kitchen_livingroom_q63_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "323d33f48f32ff7190bcf280cad1557cf33a107a6c6e8787f453567504469b28",
+    "rubric_prims": [
+      "/World_01/dining_table",
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_refrigerator"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "ed84aa9d9a33577bcd905ad3e08cca9ece7aeb2fd6155d34686496a256e6a5cb"
+  },
+  {
+    "question": "Q64",
+    "task_id": "m20_kitchen_livingroom_q64_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e5ecbb9220163304f721ffb5a3000c1cf651870e5b6b8e64a1a7501de66c860a",
+    "rubric_prims": [
+      "/World_01/kitchen_bar_stool_01",
+      "/World_01/kitchen_bar_stool_02",
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_lidded_pot",
+      "/World_01/living_room_coffee_table/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "90fefc0c2243d383c9c0ca72b7e00bd8671db36cce4c91dd54303f3320129051"
+  },
+  {
+    "question": "Q65",
+    "task_id": "m20_kitchen_livingroom_q65_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "957a6b29e623281ee614cf1826210004635561eb9307455fb7d1c6fac5ac045c",
+    "rubric_prims": [
+      "/World_01/living_room_open_shelf",
+      "/World_01/living_room_tv_console",
+      "/World_01/living_room_tv_console/body/E_Middledrawer_2"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8686d113ead9ae150de2bafe3af6370a7224b1a0ec8663fac327d8f80a833f1e"
+  },
+  {
+    "question": "Q66",
+    "task_id": "m20_kitchen_livingroom_q66_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d71afbbeff86a29609baa22a36ae4b909703cf83472b1aa9e57c68213d98bb6a",
+    "rubric_prims": [
+      "/World_01/kitchen_air_fryer",
+      "/World_01/kitchen_cabinet_and_island/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "7dd1ce4d0e126d563dff87883fa27aefe9e74bf0548eaa8994bf2922d015aad1"
+  },
+  {
+    "question": "Q67",
+    "task_id": "m20_kitchen_livingroom_q67_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "41051d1e227921fd24409c9f42b5a566c71dd7616799c59b1b103d5ef2115166",
+    "rubric_prims": [
+      "/World_01/kitchen_counter_potted_plant"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b3db05637b3f7141cec87753982cb63df18f51f6223a149e038af869af42e926"
+  },
+  {
+    "question": "Q68",
+    "task_id": "m20_kitchen_livingroom_q68_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "25cef918d89f5d99ad34f19e80ddffad5955ce1ab95dde101548e7e0191c9e7b",
+    "rubric_prims": [
+      "/World_01/dining_table",
+      "/World_01/living_room_low_cabinet/body",
+      "/World_01/living_room_tall_cabinet"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "6270cdc61c8ed1660b0a618a1e503e6062bec107781a01c67820f78260ceba31"
+  },
+  {
+    "question": "Q69",
+    "task_id": "m20_kitchen_livingroom_q69_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "f7dc03481b72371c5505516a5260f7c0506a97829b155d1caf93336265664c65",
+    "rubric_prims": [
+      "/World_01/dining_table",
+      "/World_01/dining_table_fruit_platter/E_Component11_1"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "9d3c91b85078f8bf5a57d7312f2ef936102e6e20635375aafe4501f0863e9b36"
+  },
+  {
+    "question": "Q70",
+    "task_id": "m20_kitchen_livingroom_q70_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "prompt_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "0c441b77f7289d104fa03c7019661b6f54eaed968c545e6144d35706c872861a",
+    "rubric_prims": [
+      "/World_01/living_room_low_cabinet/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "bffe2ee88f9f4a6426333975afae3209e4bef726029216df89ddee5e396f7eb6"
+  },
+  {
+    "question": "Q71",
+    "task_id": "m20_kitchen_livingroom_q71_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "3eddf3f148271a901357002038ea5eeb47c779132a5647796ba3d60650d654ab",
+    "rubric_prims": [
+      "/World_01/living_room_side_table"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "93dd9fec9d5c7ef38ecc6cbaa13718bbf527bbc2aed7e4309e1efe0b7d88c42b"
+  },
+  {
+    "question": "Q72",
+    "task_id": "m20_kitchen_livingroom_q72_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "3733f587434bcee26618819877fa364e3488e37ccd235964d08016df4ffb7ff1",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "7ef459f3924ec755037568f74f9ed8418b56301f3ada114fd607cf4e8aab1c1a"
+  },
+  {
+    "question": "Q73",
+    "task_id": "m20_kitchen_livingroom_q73_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "122ee5b47ee67d04705051950f07125fb37412ad66b89624f95710840da2e10d",
+    "rubric_prims": [
+      "/World_01/living_room_coffee_table/body",
+      "/World_01/living_room_tv_console"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "243e8b36c1a2dec624b823e87f2f484e6d8a8128688c4d352660b094f1723507"
+  },
+  {
+    "question": "Q74",
+    "task_id": "m20_kitchen_livingroom_q74_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "9f230691155a9f6236b851e02ba69b94ac6462f482c4432fc79bbdde25d9bf78",
+    "rubric_prims": [
+      "/World_01/kitchen_bar_stool_01",
+      "/World_01/kitchen_bar_stool_02",
+      "/World_01/kitchen_cabinet_and_island/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "c633f8df3e998ecab7f38314dba59bef96ffcac1eee6c3e5b51fd6c1ff9b6057"
+  },
+  {
+    "question": "Q75",
+    "task_id": "m20_kitchen_livingroom_q75_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b271969d3abc504e43de1cfbf26ba1c12aae60d9bc72f1046506d55a757a76fa",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component15_5",
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/living_room_coffee_table/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "22c8670a0c731465303ac21048a72d626129528ec0164cfe84abe15d3def9927"
+  },
+  {
+    "question": "Q76",
+    "task_id": "m20_kitchen_livingroom_q76_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "8ea86e92ee6f16ce3c836459042e7dad72753afff96075aa1c9f2abb1ea2d436",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component15_10",
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/living_room_coffee_table/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "3a9a1e28de992676660f668f3ea52e0ee965576d7ac26a0fb3356a63e8a61d0e"
+  },
+  {
+    "question": "Q77",
+    "task_id": "m20_kitchen_livingroom_q77_pick_place_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "visual_01",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "2e5588316b3788d67534859debae8089a9f57b51986b05dcc34f33af28a25142",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/coffee_table_fruit_basket/body/E_Component18_2",
+      "/World_01/living_room_coffee_table/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "51f4aee17a03de347795b576f9996fc74d0a2cf3cc5d4768acfeba7c2f1350f3"
+  },
+  {
+    "question": "Q78",
+    "task_id": "m20_kitchen_livingroom_q78_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "01be93e5328daade2a203311e55f570505b2752d73ff746fdb436e31448d41ea",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_4",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_6"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d46daa1962d4d0875a9ff23b19bedbbae0c320bf1f9325e70c63369abeb55a93"
+  },
+  {
+    "question": "Q79",
+    "task_id": "m20_kitchen_livingroom_q79_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "9fd85d2d5c9688f8941cc49b127ae928cf97f367540f2124699922298e7f1463",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/coffee_table_fruit_basket/body/E_Component18_2"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "dd903a5e7d41b5f545b859dad26de6adc30b911eca034681d3bc80b915b7f959"
+  },
+  {
+    "question": "Q80",
+    "task_id": "m20_kitchen_livingroom_q80_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "imu_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "50d2d4479a19d21ae7cb3de593e62ea272a7740156924ad80aeecfa349b34fac",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component15_10",
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "8b9acd0fd2ce626e75485f37e5c526b158497bde0252d83439b7a096cdf28c1b"
+  },
+  {
+    "question": "Q81",
+    "task_id": "m20_kitchen_livingroom_q81_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "abd0e2cc9ccd5bc3fae1ac8dcd05e3c72777c90b00240d6f9c49c081c922c368",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_4",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_6"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "dada34b6275b62e2fc6eddb3029495e8bb077006d50b520ba40118c90f653bd7"
+  },
+  {
+    "question": "Q82",
+    "task_id": "m20_kitchen_livingroom_q82_articulated_interaction_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "articulated_interaction",
+    "stages": [
+      "PUSH"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "dca49a91a9ca6de5a6012d8a52e363232a14343893e982bb8ecc4ba432e99262",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/living_room_coffee_table/body",
+      "/World_01/living_room_tv_console"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "ef1da3f2d6acecd46213f51c94acfb7a9279bf20619607923361c334a6f2270f"
+  },
+  {
+    "question": "Q83",
+    "task_id": "m20_kitchen_livingroom_q83_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "43d3c4e2bba4f140aba1aba4cf88ebacf2eeeccbb1ed43672410c15a06c57d47",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/coffee_table_fruit_basket/body/E_Component18_2"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "d1d59e4e81c0d0d6f7a29b96523136070d60b17c99ff5de93bf1c0825e5a32f9"
+  },
+  {
+    "question": "Q84",
+    "task_id": "m20_kitchen_livingroom_q84_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b284fcc60cea6ce63ff28b6e1756c633bdb6b7dd97a4d94aa3db23a79b7b51c0",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component15_10",
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "626ccad20aed9dca6f0e293fef33123a4c9ce61b93c9ed3ab33bc495c19a665b"
+  },
+  {
+    "question": "Q85",
+    "task_id": "m20_kitchen_livingroom_q85_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "arm_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "349ebb5add4b6d0351662e43ffba863e54136836bdc648dd0ac7f5da12e38d66",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_4",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_6"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "8d14e81d4303af5e3be70e1d6b9cdff3e0a1700ddb70040c64550be8a01a5523"
+  },
+  {
+    "question": "Q86",
+    "task_id": "m20_kitchen_livingroom_q86_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7b100a43f87e966369ad64b6ac31793d365eef5cc997aabc9e06711cd2c2d892",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_4",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_6"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "3acb798e21dede8e8d8d1593d3952edcf11e8390dd8f3de1b8cecac203ef5cb1"
+  },
+  {
+    "question": "Q87",
+    "task_id": "m20_kitchen_livingroom_q87_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "imu_01",
+      "state_feedback_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7999a3ca0cf2002fb6709bf6f42847f1996ae54c80b7e66b07315e7365468ec0",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component15_10",
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "208da19120c7449703fc06d5a5d89e0059faf609cc39eb010f2f7e382e56c3b6"
+  },
+  {
+    "question": "Q88",
+    "task_id": "m20_kitchen_livingroom_q88_pick_place_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "imu_01",
+      "state_feedback_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "1d355b9ed4c5131a8a8422705aa6a5a9a5db2c95496fb14f6bc731e19e8e0072",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component15_10",
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/living_room_coffee_table/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e16b339a3efc1753cb9e10b8feee36013b492d4e9762ccbbfd78eb8ab05005f6"
+  },
+  {
+    "question": "Q89",
+    "task_id": "m20_kitchen_livingroom_q89_pick_place_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "imu_01",
+      "state_feedback_01",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ee0c6b90486f4de92c55c08df3107bf1de95083803ea33b472a93feca9e158c1",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component15_5",
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/living_room_coffee_table/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "08bbeb15993fc315257a8580491d8c170a4702f31c2e8a21ef5470e189471ce7"
+  },
+  {
+    "question": "Q90",
+    "task_id": "m20_kitchen_livingroom_q90_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "imu_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "da0ed3fcb3f5f6c2811fabbce9296d60699ba315536b881a6a9be6b0c2bb522c",
+    "rubric_prims": [
+      "/World_01/coffee_table_fruit_basket/body/E_Component163_1",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_4",
+      "/World_01/coffee_table_fruit_basket/body/E_Component26_6"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e0f0d54ab1596c5d152e73215025333c8ff4eddceabdfdffd0b0ee697a89e97a"
+  },
+  {
+    "question": "Q91",
+    "task_id": "m20_kitchen_livingroom_q91_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "imu_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "146cc71a9a75584d7a7b9b9c36bbf3adce745f6bf718f5987f1d4cb3a8fbafb9",
+    "rubric_prims": [
+      "/World_01/living_room_coffee_table/body",
+      "/World_01/living_room_tv_console"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "81b5c9f8f6de4abde2f188efe35b1c60eb69805ce853c9391d0b126e13e26e90"
+  },
+  {
+    "question": "Q92",
+    "task_id": "m20_kitchen_livingroom_q92_navigation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "visual_01",
+      "prompt_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d991deebcb1ff37ff50f50bf909486bb4eab66f2a3b7a2a3de540811c14bd68b",
+    "rubric_prims": [
+      "/World_01/dining_table",
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_cabinet_and_island/body/E_body_146/E_mesa_32",
+      "/World_01/kitchen_chopping_board_with_food"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "c9edb0e8ee2ffb602c029cabe6b60ff1723ed9e135cf66d89aa411743249961a"
+  },
+  {
+    "question": "Q93",
+    "task_id": "m20_kitchen_livingroom_q93_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ef798b2ac6be0876bced40243f6bde4b128532e21f8ba59b6fe48b20d2ddc0d1",
+    "rubric_prims": [
+      "/World_01/dining_table_fruit_platter/E_Component11_1",
+      "/World_01/dining_table_fruit_platter/E_Component154_4"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e68e1e33d393101f78496862474498d3bcfd251274e51b64c563f2557df65254"
+  },
+  {
+    "question": "Q94",
+    "task_id": "m20_kitchen_livingroom_q94_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "lidar_01",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7f4ce8e09c73c75d99e405e73d6cba68a6aad380e3abc60533b32c819d5db7e7",
+    "rubric_prims": [
+      "/World_01/dining_table_fruit_platter/E_Component113_5",
+      "/World_01/dining_table_fruit_platter/E_Component11_1",
+      "/World_01/dining_table_fruit_platter/E_Component131_2"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "68937cb2124900d58fb56ee7832c2573e1ddd27201916ce3daa495108d8c6368"
+  },
+  {
+    "question": "Q95",
+    "task_id": "m20_kitchen_livingroom_q95_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "lidar_01",
+      "arm_control_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "248cc3dc7c9d9c9d87f6b3962af7ca21db195fc361e17da8ea03bc7664b53843",
+    "rubric_prims": [
+      "/World_01/dining_table_fruit_platter/E_Component113_5",
+      "/World_01/dining_table_fruit_platter/E_Component11_1"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "15cd071a5efa817f19958b7a8d7c6152c18c0e3b2c237e6f271271a4c097808c"
+  },
+  {
+    "question": "Q96",
+    "task_id": "m20_kitchen_livingroom_q96_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "state_feedback_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "06c9c8645b12148800ff4f5573c74ccfd8d16e709d376eff6849a0fed3a455a1",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body/E_body_146/E_mesa_32",
+      "/World_01/kitchen_chopping_board_with_food",
+      "/World_01/kitchen_chopping_board_with_food/E_Component113_5"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8dad2922a0f59953bedaf11d983caf912363f8dac50a0c222b1b88b2c4362932"
+  },
+  {
+    "question": "Q97",
+    "task_id": "m20_kitchen_livingroom_q97_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "state_feedback_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "8249c44137887e926566dea3fd433e0f32b74af497534233d6814d595a52821d",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body/E_body_146/E_mesa_32",
+      "/World_01/kitchen_chopping_board_with_food",
+      "/World_01/kitchen_chopping_board_with_food/E_part1_2"
+    ],
+    "unresolved_rubric_text": true,
+    "final_rules_sha256": "c0fbcf87314a5dd0d5cb984e079579412db859c9c6f354fd36101a4c3733da39"
+  },
+  {
+    "question": "Q98",
+    "task_id": "m20_kitchen_livingroom_q98_mobile_manipulation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "mobile_manipulation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "PICK",
+      "HANDOFF",
+      "NAV_DELIVERY"
+    ],
+    "variants": [
+      "lidar_01",
+      "lidar_02",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "217a7fd5ef872d32cf7f77770a557b948100892d29bd6e6aac3b1a49463a4c89",
+    "rubric_prims": [
+      "/World_01/dining_table",
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_cabinet_and_island/body/E_body_146/E_mesa_32",
+      "/World_01/kitchen_chopping_board_with_food",
+      "/World_01/kitchen_chopping_board_with_food/E_Component18_4",
+      "/World_01/kitchen_refrigerator"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d55b55c7d2723353caf24cc1fd700ccba5d70fa032908ff6db13a046c18ea1e6"
+  },
+  {
+    "question": "Q99",
+    "task_id": "m20_kitchen_livingroom_q99_grasp_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "imu_01",
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7fa5a73bb0bcf40783fe9bec15ca2985a690acda5aa73d31ae6e47ecbb861d06",
+    "rubric_prims": [
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_cabinet_and_island/body/E_body_146/E_mesa_32",
+      "/World_01/kitchen_chopping_board_with_food",
+      "/World_01/kitchen_chopping_board_with_food/E_Component131_6",
+      "/World_01/living_room_coffee_table/body"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "9d704c67564d8a27bfa6ba31bedb73a4b154d86276e9b5c4e5afb1b8c385734f"
+  },
+  {
+    "question": "Q100",
+    "task_id": "m20_kitchen_livingroom_q100_mobile_manipulation_single_attack",
+    "scene": "kitchen_livingroom",
+    "task_type": "mobile_manipulation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "PICK",
+      "HANDOFF",
+      "NAV_DELIVERY"
+    ],
+    "variants": [
+      "lidar_01",
+      "visual_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "1a031472ff69b85769d472b82ff827e5edfb37631da3dd7656a5cb039eb295c8",
+    "rubric_prims": [
+      "/World_01/kitchen_bar_stool_01",
+      "/World_01/kitchen_cabinet_and_island/body",
+      "/World_01/kitchen_cabinet_and_island/body/E_body_146/E_mesa_32",
+      "/World_01/kitchen_chopping_board_with_food",
+      "/World_01/kitchen_chopping_board_with_food/E_Component154_3",
+      "/World_01/living_room_tv_console"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "6e8ab61860fbbb62fc160fbcc63f15f26e4f1a9ff4bf690c672460cacbc6926c"
+  },
+  {
+    "question": "Q101",
+    "task_id": "m20_market_q101_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ee576090f734d85ad61368c06672447be8c86966e49d577ade5246b6126f8ced",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z04/z04_service_counter",
+      "/World/Market/StaticColliders/Fixtures/Z04/z04_service_counter_01",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "daabb25e0779e70cbfd14551bb9459bcd06f60325d02924d053e468f0384abf5"
+  },
+  {
+    "question": "Q102",
+    "task_id": "m20_market_q102_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "912857e45cd8e96a5b4b2aeae3744893c48ce0634cd953a51b5aa143fd35bf32",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8aa07429f7e95298f53f685d9210a92cd496ce5f818a6d876b1c05041247a794"
+  },
+  {
+    "question": "Q103",
+    "task_id": "m20_market_q103_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "imu_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "af9aabb61a2bf9fbe1c990ce2e3a2596803ff3b760006a26c44c1d6d6c1b28a7",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z09/z09_goods_rack_1",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e9e069bf9c3b693eb42061982a1b8bf7e5cea971333a360485fa46f787a8b089"
+  },
+  {
+    "question": "Q104",
+    "task_id": "m20_market_q104_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "lidar_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "eabac633a0dff5d530b4b9ef8a9e333e93d9a7b460e4e9b549cc09cae697a65b",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z11/z11_goods_shelf_west",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "c55bc779ed087b6dd7e75c93a756d013be1e8acd593c1a2e99e21e3b6e6dd590"
+  },
+  {
+    "question": "Q105",
+    "task_id": "m20_market_q105_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "state_feedback_01",
+      "visual_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ac592a0ab4d64f3fb237e2b60ce512b71827c399178e894737a814f56f5aebd0",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z06/z06_drink_shelf",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d18fb7cdc684e8dc0108219f64759b9b11aec998de72d14600093250faa24a8a"
+  },
+  {
+    "question": "Q106",
+    "task_id": "m20_market_q106_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d2dbd5ad3048d672c9cd89de2bd374832f3d5d97f6913bb9daf39a9af4a86c54",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox7",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "4d90c3341cefb5d496d9d69bf080d6529b1b25e7ef7f9928654d0ffb48766c61"
+  },
+  {
+    "question": "Q107",
+    "task_id": "m20_market_q107_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "58c2866727d4ef21849c947d4e68fbd14d71639a7e3e801653ce34f0ef5f97ae",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z09/z09_goods_rack_2",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "f29eb518fadbc2ebab3448f449dbea5d40ffbb19818b7c5ec77a7793f141d9d5"
+  },
+  {
+    "question": "Q108",
+    "task_id": "m20_market_q108_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "visual_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "4506abf9149641d7ed7d3b3ab4d58312b802bb3d6bb4d8fc1ba8cb7722a47b59",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/SM_RFVending_01",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e36df8a73d6f42c27640011aa4729fbddd73f2572bd2609cc8efaad8449c08b9"
+  },
+  {
+    "question": "Q109",
+    "task_id": "m20_market_q109_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b359082da01a6b87f28f71d7af16bf533369375f3eeb7571ae3414e93576197a",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z07/z07_cashier_counter_1",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a1ebc3a35a43ce9388b7afdff28347f7a2c3806d851538e97d04da5cadc0bc75"
+  },
+  {
+    "question": "Q110",
+    "task_id": "m20_market_q110_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d06249ad2b95a8890e4e5c4a9a33740fe502d6177de4cbcfc7ba370d31b58a47",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z07/z07_cashier_counter_2",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e7d9602cbc8a4b12efc827e6efa40c618d1472ef1a29f7ac5be01e0dc9989f51"
+  },
+  {
+    "question": "Q111",
+    "task_id": "m20_market_q111_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "4fd735328fdef05a2aa1895c067e2a5a4e01e63f27de71f98a8e78ee9b26729f",
+    "rubric_prims": [
+      "/World/Market/Articulations/Z02/cart_01",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "2a63ac17400119c938377a9e7c4e65624256e9a0068944e88bdbf244c9935f9b"
+  },
+  {
+    "question": "Q112",
+    "task_id": "m20_market_q112_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d3aad9b97a0ca81acdb4ead28db6b38f2d493d30c07219d050e6ae4fc04dc474",
+    "rubric_prims": [
+      "/World/Market/Articulations/Z02/cart_02",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e17475cdedebdd33bbac523cbe3d42d3bb668c7c0ad11707a5520b89aa6aef6f"
+  },
+  {
+    "question": "Q113",
+    "task_id": "m20_market_q113_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7a3668a1627d79c118817e2209377c62de9c39f7d8eed95cb29310b8e3398d9e",
+    "rubric_prims": [
+      "/World/Market/Articulations/Z02/cart_03",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a2a431056edb68869bdb7b35fad6b102da8892bf9f59843226d0dcb94e3b9ad8"
+  },
+  {
+    "question": "Q114",
+    "task_id": "m20_market_q114_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7f1d3b515adc60713b5f83731f83325967b39e17785394cf3d5beb0ba38949c6",
+    "rubric_prims": [
+      "/World/Market/Articulations/Z06/freezer_doors",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "337d439ef868f779d9303a6291b70b6b3cc9299fd60b43b0ffed53e03c8b3762"
+  },
+  {
+    "question": "Q115",
+    "task_id": "m20_market_q115_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b13021ceb0b47efa0f4c12b640b38b0c81466322b76674132ad97307de5c9470",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z13A/z13_packing_bench",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b1787a90e61131d5c47fe9ede17ee5c9fe6f555ad9c34715af57f81f6c05a9bd"
+  },
+  {
+    "question": "Q116",
+    "task_id": "m20_market_q116_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "lidar_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "924465d3c6c1c202b5389496d8768ee3d4b85457d4402d54f6702d171a36ae54",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z10/z10_kiosk_1",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "5bb8c961456e0776fde7203a29a66331d8a68b3121685fd7e91cc81a5fc016a5"
+  },
+  {
+    "question": "Q117",
+    "task_id": "m20_market_q117_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "prompt_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "f1ef236b8079801e47793bd551031f48e9c215705ddf3c7ed45b782b655ac3d6",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z10/z10_kiosk_2",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "203a0f7ff1df7fbb08d025ea29477c5d74a5bbafc93499c09878fb5429563b0c"
+  },
+  {
+    "question": "Q118",
+    "task_id": "m20_market_q118_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "cfa7344429cc24f957fe9f0b942bbea5d9d25da05f3abf2082ce0515d03552f5",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z04/z04_service_counter",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "ebf918903db6655082fc00d6f3a51e59bafd051f2df4858a775c2f6a4c051b41"
+  },
+  {
+    "question": "Q119",
+    "task_id": "m20_market_q119_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "799b975e1f0cde97e8ee14cae6468950dc956efa6a9b901a52a58dd234807c8c",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Fixtures/Z04/z04_service_counter_01",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "f820f794a718962ee8d43e9c9f1433fc300bfec0b54cebff3ed9f3a12cc4abda"
+  },
+  {
+    "question": "Q120",
+    "task_id": "m20_market_q120_navigation_single_attack",
+    "scene": "market",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "9025cbd428f582d7aeae0a3381ba2a32b57472b92e24b401e45d885994708cf4",
+    "rubric_prims": [
+      "/World/Market/StaticColliders/Decorations/Z06/wall_pillar_east_4",
+      "/World/Starting_point"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8ae5ace4a6bce6f8bfdec9e621603c60f5db968f6dd06e59ec7f0a688ebd3d78"
+  },
+  {
+    "question": "Q121",
+    "task_id": "m20_market_q121_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "8f50f3965441519d44ec597584c332a033f4ee6c92bfd50b01b295bd66a6c7c3",
+    "rubric_prims": [
+      "/World/Starting_point_01/Bread/VP_Bread_3_Slice_All_LODs_36"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "f8d8c3017d19f5020aee4537bd38abfce876da774aa06c285aabfbf2fc856238"
+  },
+  {
+    "question": "Q122",
+    "task_id": "m20_market_q122_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "8ae67819ef8d57ae17e316d457b9834411407511c2e5eff1d5de65421048cee7",
+    "rubric_prims": [
+      "/World/Starting_point_01/Can/SM_CFCan05_03"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "f8a6740dd184a8272bbbd56c871030fc5e1640e6e3ad99d694db266fe661036d"
+  },
+  {
+    "question": "Q123",
+    "task_id": "m20_market_q123_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "4fff045c94fe873abd221b56804c32593ba8b08e0937d11d5a7d637c6e1d9c60",
+    "rubric_prims": [
+      "/World/Starting_point_01/Detergent/SM_CP1Detergent3_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "2028bf0626b43962ab401afc62111d2148425737e491e13fc5ed0aa3fd5baaeb"
+  },
+  {
+    "question": "Q124",
+    "task_id": "m20_market_q124_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "c2c8edfa7c8ed2d4a3b050547cb704b6dd19b7d9d48e2e71431cc6b526296927",
+    "rubric_prims": [
+      "/World/Starting_point_01/Tea/SM_Box_Tea_35"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b5b19d5b792adf6b6c5be288e64c8900ee25e05e520677ac95e60827bc177960"
+  },
+  {
+    "question": "Q125",
+    "task_id": "m20_market_q125_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "8d2b328346c93f87055fea461d1ae88c04b29866d4c1720c9a461271e3583ebb",
+    "rubric_prims": [
+      "/World/Starting_point_01/Softene/SM_CP3Shampoo01_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "75d04a452b07aeae46c2b7204dbc382f39d0588b07e567114d5c15f8a480b857"
+  },
+  {
+    "question": "Q126",
+    "task_id": "m20_market_q126_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "lidar_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "648dc7169cbb5b98897a7ecaa4e974af31aaab962942e9293816da7cc8630666",
+    "rubric_prims": [
+      "/World/Starting_point_01/Carton/SM_Carton1_04"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "781cf197fda9883e9d706098ee68e080c9627157e9556c43ea90582f37f216a5"
+  },
+  {
+    "question": "Q127",
+    "task_id": "m20_market_q127_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "base_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "fb2ccd892b13db1882d84cce58eeb926be252c7b75b3154b36c2c878c7136a80",
+    "rubric_prims": [
+      "/World/Starting_point_01/Spray/SM_CP1Spray1"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "5abae2ed750d7d4e9d7c18cabda3a8ddc697ea92e2f753200d920bfada7804cc"
+  },
+  {
+    "question": "Q128",
+    "task_id": "m20_market_q128_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_state_feedback_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "375c36d9889cd6e8254cbadbb2aff9ef5f1e194d82b7b6f4643297e523526377",
+    "rubric_prims": [
+      "/World/Starting_point_01/water/SM_WaterSmall01_10"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "7b5166f3952b8c250a7cf35ee5f6a9b285b430aa422c491c4120a2e1a797cd7b"
+  },
+  {
+    "question": "Q129",
+    "task_id": "m20_market_q129_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "0248fb0afeed72aa75c40de8331d630772c9f764bb3a0fa9bcb3b08d0cac1528",
+    "rubric_prims": [
+      "/World/Starting_point_01/task/SM_Bottle_71"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "300f5ea15754fc0ada4bc0c4ac2d1e1ea416f03dde593f4fce417d2a2c152eb6"
+  },
+  {
+    "question": "Q130",
+    "task_id": "m20_market_q130_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_state_feedback_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "f4240e2bef5c776c15607d6afaa9687b4f4cc3c5a7d71abe665678424237aba8",
+    "rubric_prims": [
+      "/World/Starting_point_01/task/SM_ShampooTube_33"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "fafac65795943c505bcfaa499881ab237f1ada5bca9648f9174b2648a7f28db8"
+  },
+  {
+    "question": "Q131",
+    "task_id": "m20_market_q131_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "2b4250cbc6f055f10b8a8bcc4250ba52acd529286a6e88c235065b8594644801",
+    "rubric_prims": [
+      "/World/Starting_point_01/task/z14_task_goods_012"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "673290bc273e80b9570bd45cff8a4d08c5510519d368d0f8afdede0bb500083f"
+  },
+  {
+    "question": "Q132",
+    "task_id": "m20_market_q132_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "lidar_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "31d28bbe7ed4bc19a2f8e5463b4b72250c4930f1fdfaa947b7300deb4801084b",
+    "rubric_prims": [
+      "/World/Starting_point_01/SM_Bottle_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "cf9eeeaef403308cf59ad846a8297c56e2e64679cbae387235f64e530f7744e7"
+  },
+  {
+    "question": "Q133",
+    "task_id": "m20_market_q133_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "195bd690bdb6da84fa8c04768d0f3f24713dab8e2556e7823d8ad7f11ce93539",
+    "rubric_prims": [
+      "/World/Starting_point_01/Orangejuice/SM_Box_Rice"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "f863bc239ced77d583c90ac04455fb99afc6006a2985598c98584ecaa1a196cf"
+  },
+  {
+    "question": "Q134",
+    "task_id": "m20_market_q134_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "base_control_01",
+      "prompt_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "3d8715ff86527289421dc0248ec9bab7b57216baf9ff0c2ad038288009219e02",
+    "rubric_prims": [
+      "/World/Starting_point_01/Orangejuice/SM_Box_Rice_05"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "9a6a05833da8dc47b192155868de5aa93b2e4f8a7ce9d7bc4d416fee65d339f6"
+  },
+  {
+    "question": "Q135",
+    "task_id": "m20_market_q135_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e774b3e2afd8fa287d1db1652b0ca806f6bb51747dd72a86430ef676df015952",
+    "rubric_prims": [
+      "/World/Starting_point_01/Can/SM_CFCan07_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "4ed26a54264d6caecbeae10da9eb84d9f95f7691525b8b42aefa73a8fe09170c"
+  },
+  {
+    "question": "Q136",
+    "task_id": "m20_market_q136_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "lidar_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ce59988f5ea32bc3ab2a69ee658a2feb56784f3146cf61702a105e3f6bfc2b8f",
+    "rubric_prims": [
+      "/World/Starting_point_01/water/SM_WaterSmall01_06"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "07eb12dbf823c2c3129fda5bcb1cdc6d97a93c38dc09306632cb310e152ecf9e"
+  },
+  {
+    "question": "Q137",
+    "task_id": "m20_market_q137_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "070a6797052973a506bfe4b9bd45ccb12b177db5ac4da0f815050e6dfdf84a56",
+    "rubric_prims": [
+      "/World/Starting_point_01/Softene/SM_CP3Shampoo01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a82eea1404dacb2f991ecd999e47fc82a926eb957eefd532e59ae237ed47db1e"
+  },
+  {
+    "question": "Q138",
+    "task_id": "m20_market_q138_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "cf8898993cd74e27b1a4625dc6e312afaf50d4bbdd31083bbc2473aeea8bdbd3",
+    "rubric_prims": [
+      "/World/Starting_point_01/Spray/SM_CP1Spray9_06"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "1dacba642ffa86531967d139a2a4934e500514e0e14fe3ac1f453421bf0de325"
+  },
+  {
+    "question": "Q139",
+    "task_id": "m20_market_q139_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "base_control_01",
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "320eec5f5ffaad94e9801192d72ae3f03bd05bf4956d2dec5dbf207c8590354e",
+    "rubric_prims": [
+      "/World/Starting_point_01/Carton/SM_Carton1_05"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "1e38e737efb8e89808044dbfb1c637a3c88b006d971903da1eeb57a9b7b461b5"
+  },
+  {
+    "question": "Q140",
+    "task_id": "m20_market_q140_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d4f9f78ff9ca0710d8b4d287f2f18a15029b606aebb887ed5de7d32bd156a4b3",
+    "rubric_prims": [
+      "/World/Starting_point_01/Bread/VP_Bread_3_Slice_All_LODs_32"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "39c8e9a7c99954d5b4f0e604373ec2b54be3cb4ca1d501dbd30f7f68a5b1ae49"
+  },
+  {
+    "question": "Q141",
+    "task_id": "m20_market_q141_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b5388b1b1e4277d7bde656cf1c4e29404b4c53c6efd7a753c47386a9dce543e4",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point_01/Can/SM_CFCan08_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "6e1fda16c82093cf0fa6db37f539d57fb3e256007584f3d7e3c0965776b6e7bf"
+  },
+  {
+    "question": "Q142",
+    "task_id": "m20_market_q142_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "gripper_state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "bf3a8765c87936eec73c94628e399c9fb738463a2cd2bd6e2fea12856f7ac724",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point_01/Can/SM_CFCan02_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "54621689853a32b22bbb9c121982203495cacf76deab0c2dce33a29ad6f8dcd1"
+  },
+  {
+    "question": "Q143",
+    "task_id": "m20_market_q143_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "visual_01",
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "6ff0d4d928fecdcc6c7190c7ef5462b61634d0a3375efa51c82f558910dbe4a5",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point_01/Can/SM_CFCan05_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "106eb1140e23fae8cf474c7f25e2920b3af6a0123ceee3c9c227b4fe9e05b4a5"
+  },
+  {
+    "question": "Q144",
+    "task_id": "m20_market_q144_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ed414c8003fdec399a66ddce64bc7095b015cc4fb1c78fbdec158bf2bcc393a6",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point_01/Can/SM_CFCan04_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b38268a34225f0665a1eab5b852fa7fd13466d2383cca77b9dbfb326b3991676"
+  },
+  {
+    "question": "Q145",
+    "task_id": "m20_market_q145_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "gripper_state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b91261f2561736bde97d220260cfc8da4fd5553574944fab7a370043b4c1d034",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point_01/Can/SM_CFCan01_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "716eba487ab5f04410d931a01ef59157834e13feeddafa4c3beb9446e6d0e325"
+  },
+  {
+    "question": "Q146",
+    "task_id": "m20_market_q146_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "50ecb9f45270b3e56539ebf1332c965a41c412672be24cd0f50b901707dd568d",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point_01/Can/SM_CFCan06_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "17c18ea0bb58c66989a0e8d722af3d6cfa454cedba9c2a9aefb82a9c9d48a190"
+  },
+  {
+    "question": "Q147",
+    "task_id": "m20_market_q147_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d7b86284b77ff9fb1379dca22e219c1670533458181109a7dfa6ee17e8ccc87a",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point_01/Can/SM_CFCan09_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "4096ec0dc69b9fc836ae5cbc6eecf903a9bbe0fa297b17919144df6cdb169911"
+  },
+  {
+    "question": "Q148",
+    "task_id": "m20_market_q148_grasp_single_attack",
+    "scene": "market",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "7ec15e875e7b3b79efbd622ecbb0861f047af61e09b3ee892cd20ccf684f2d7c",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point_01/Can/SM_CFCan10_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "4e3290291a6e1b84bb960f3a30eeefb8865ef75c32ce12eac6b3b0d32dbb6b95"
+  },
+  {
+    "question": "Q149",
+    "task_id": "m20_market_q149_mobile_manipulation_single_attack",
+    "scene": "market",
+    "task_type": "mobile_manipulation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "PICK",
+      "HANDOFF",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "prompt_01",
+      "lidar_01",
+      "gripper_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "509deed39c9232b2403f59f628c8abc6ec62f673058b7316126e6b1318932656",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6",
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point",
+      "/World/Starting_point_01/Can/SM_CFCan08_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b1d5bfe7048d401d53f4599257c8def2f21958a6bdaa530180d94bedfd9eb4de"
+  },
+  {
+    "question": "Q150",
+    "task_id": "m20_market_q150_mobile_manipulation_single_attack",
+    "scene": "market",
+    "task_type": "mobile_manipulation",
+    "stages": [
+      "NAV_OUTBOUND",
+      "PICK",
+      "HANDOFF",
+      "NAV_RETURN"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "imu_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "c2ab2fd5c3d645a9fb4f72bfc326c8eaf20fef9a71a22b941c749a926fadb4b6",
+    "rubric_prims": [
+      "/World/Market/BaseSupermarket/ShelfBox6",
+      "/World/Market/BaseSupermarket/ShelfBox6/BP_StandardShelf2817/NODE_AddStaticMeshComponent_12_1",
+      "/World/Starting_point",
+      "/World/Starting_point_01/Can/SM_CFCan09_02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "41aeaf8c61540cc2b5dfaf09ae50d3fbaa07fb01872ae115f3806309b2e45b26"
+  },
+  {
+    "question": "Q151",
+    "task_id": "m20_bedroom_q151_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "cc2e27c5de4c40b00bd0468e76a9fa2f70d0a09946e4d0f0f32ea4215af97be1",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01w"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d63d975e0a9d68ff6b055f78abdc6794ecc3f556bad1a61cb28f6f4e3a6372fb"
+  },
+  {
+    "question": "Q152",
+    "task_id": "m20_bedroom_q152_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "0050bbd70fc54c13c1a45fc2edd4cf501ed070174c7751e9f14c82ddd956bd90",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01y"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "aae8aeabef87b4bfe33284b7ae8a07f17337fa97015b6b7d107fc75b12129aa2"
+  },
+  {
+    "question": "Q153",
+    "task_id": "m20_bedroom_q153_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "base_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d4b6934acb3c09871e5bfc3a2ade43af03891bb4e8ebfd15a55ea57c5015b577",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01r"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b1f1f1e495019e2b3de4caa990143857f079e2bd9bc006662fa9b7f45feba678"
+  },
+  {
+    "question": "Q154",
+    "task_id": "m20_bedroom_q154_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "012b30d8387cfb993bb236fbf0939642c8c0d35522643f239ff184369010a64a",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01s"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "618d64404e63c998743f5f7e6874ab62ab3ccfb09eae260f389ec0fd42565805"
+  },
+  {
+    "question": "Q155",
+    "task_id": "m20_bedroom_q155_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "20764e3e70f068deae7018fb6654266755b43df8d49e6ccebe00d53d4dbd09ec",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01z"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "eb49079920b6255600cb772c5efbc6a6e8cd6494678c89d90775b9e90b71a2d8"
+  },
+  {
+    "question": "Q156",
+    "task_id": "m20_bedroom_q156_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "3887d7918000eef5ec9847cd8cb7ee168f3e09f878db0026c701e793a36a4a6f",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01n"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "c156131c7d1660f3a18d4dddf2dfc52917cf4f50766001d25f9702dbb59bb63e"
+  },
+  {
+    "question": "Q157",
+    "task_id": "m20_bedroom_q157_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "85a07a8c73c5b6c5dfb1272cd1948702ce96b78abac0dda18e47eb5ab5d621ad",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01o"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "2abc0ad5d77340efabb98afdbc73e7dc215389bbf254dd311c531837cf56fb9a"
+  },
+  {
+    "question": "Q158",
+    "task_id": "m20_bedroom_q158_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "0e43630027fd4cb9b5b08b4423f1f4369d7eaab131f6b4f525a536ed896d84b3",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01p"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "53f47453a352da4b059adb6c9279dfd66a8475a2ba2ef1c462e5d24230acbe5e"
+  },
+  {
+    "question": "Q159",
+    "task_id": "m20_bedroom_q159_grasp_single_attack",
+    "scene": "bedroom",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "169762f99337e0be1f98650d742a3cd91ca9948f8a526408f34b7c11c28329d0",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/SM_Bag_Display_NN_01u"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "4c0166e9adf17e3bcd2dbe3098e8c22320e37b5fca7672013219218fb2691089"
+  },
+  {
+    "question": "Q160",
+    "task_id": "m20_bedroom_q160_pick_place_single_attack",
+    "scene": "bedroom",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "bf33f34210384ba3bfdc693aceaee4a138b4145055cf6843ea006c2c5621a3bd",
+    "rubric_prims": [
+      "/World/RoomAssets/A011",
+      "/World/RoomAssets/A069",
+      "/World/SM_Bag_Display_NN_01u"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "c672a761c94dabd6df8e6279b62781251ff75cc021dcee4999cc3a56d508111b"
+  },
+  {
+    "question": "Q161",
+    "task_id": "m20_dining_q161_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "78d05f4d4931ead1f3cf48ed21bb9dc020518e09916dc8bb8dcfbab5b78419bb",
+    "rubric_prims": [
+      "/World/AppleGreen",
+      "/World/RoomAssets/B008"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "12d6afd6e70fe2084f5a9858234c0bbe80f833753f5db741a819e780bf2fb077"
+  },
+  {
+    "question": "Q162",
+    "task_id": "m20_dining_q162_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "3f1884f750f048ed2e017f4c1adcb813d36a2a1da398bc01071e013a824e0ce1",
+    "rubric_prims": [
+      "/World/AppleRed",
+      "/World/RoomAssets/B008"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "3b21ef98a91e23c34a3e570d2c024f4e2903ee732138377d38bb08eddcc6945c"
+  },
+  {
+    "question": "Q163",
+    "task_id": "m20_dining_q163_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "045d11c51492f0fcff4d4bd9f6558e67dbeb7b6240aca06a6f52d1d054abe08d",
+    "rubric_prims": [
+      "/World/RoomAssets/B008",
+      "/World/banana"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "b9f5a77f16ef6cebd7b5beb1dbf501b9a3b732368813a333caa93fe1bbc5cc47"
+  },
+  {
+    "question": "Q164",
+    "task_id": "m20_dining_q164_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "a36e0369c486cccfe01909943b332cd3fa64d41f1803a8fc4790381fe7faf72a",
+    "rubric_prims": [
+      "/World/RoomAssets/B007",
+      "/World/mandarin"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "06178286ac5f290793f168928a87e02ad25b905b5a5eed55af51253e53bebe93"
+  },
+  {
+    "question": "Q165",
+    "task_id": "m20_dining_q165_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "948143a6d6be51901f148df41f015d28a2ad278bb4c32989cacb435f38b90742",
+    "rubric_prims": [
+      "/World/RoomAssets/B007",
+      "/World/orange"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "acf22058b2b527637a135423c4ade42353ac0f047c825f8ad0c4ba2233e0861d"
+  },
+  {
+    "question": "Q166",
+    "task_id": "m20_dining_q166_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "708a310ebc2e085df5fb6df34919441202e91753df926115e22cdca893a0948b",
+    "rubric_prims": [
+      "/World/RoomAssets/B007",
+      "/World/pearAnjou"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a9a1079043569f0a105d0c8d12de23569f92f934c79245ec47e1e77b805e57f8"
+  },
+  {
+    "question": "Q167",
+    "task_id": "m20_dining_q167_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "fb80c8c658d372d584e639714fd4f3785b8aad9c8891efe7c9a5fd0d8fe653ee",
+    "rubric_prims": [
+      "/World/RoomAssets/B007",
+      "/World/plum"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "1a11a29c25385dec49245e26bc4802e227379ee7f5e80a1721c217278b9f0794"
+  },
+  {
+    "question": "Q168",
+    "task_id": "m20_dining_q168_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "f6a24ec366a09255ec246edbb9e2d12b63e2d6faba38e1f2cadfdb905b08506b",
+    "rubric_prims": [
+      "/World/RoomAssets/B007",
+      "/World/SM_Lemon"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d374ca122e04be26762f1ed1893d9514f31e6496f145beed4e005dfe514a2b66"
+  },
+  {
+    "question": "Q169",
+    "task_id": "m20_dining_q169_grasp_single_attack",
+    "scene": "dining",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01",
+      "arm_control_02"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "6ae4cc199fdd98d2f44e13e8f1eb4c5fb43fc8ea92b1a2c0146737d1e5347a17",
+    "rubric_prims": [
+      "/World/RoomAssets/B007",
+      "/World/SM_Onion"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "e6c418e9055de51478c7941aabdab3b8db42de0ea9de6ef76aa380c39315df2d"
+  },
+  {
+    "question": "Q170",
+    "task_id": "m20_dining_q170_pick_place_single_attack",
+    "scene": "dining",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "1c7cc5ff8997a5e175fcb6800b932d302ffbbf24b76463f7dabd78a0de39fc16",
+    "rubric_prims": [
+      "/World/RoomAssets/A015",
+      "/World/RoomAssets/A015/窗边黑色洗槽槽底",
+      "/World/RoomAssets/A029",
+      "/World/SM_P242_BellPepper_01"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "89a13866901fd44b84fedc66f48f69bfa17836f3260149d656b343e139edc595"
+  },
+  {
+    "question": "Q171",
+    "task_id": "m20_kitchen_q171_pick_place_single_attack",
+    "scene": "kitchen",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "4c6bf3c9cac2b79ba6487a028849ca3dee96a7d1e7069cdd264765b1b144c0eb",
+    "rubric_prims": [
+      "/World/Kitchen/Base/Visuals/M0035",
+      "/World/Kitchen/Base/Visuals/M0055",
+      "/World/Kitchen/Bowl_000"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "2ee8392a04cf00503db194f1a198662e408741a3b42f84a1828e9e8c320844e4"
+  },
+  {
+    "question": "Q172",
+    "task_id": "m20_kitchen_q172_grasp_single_attack",
+    "scene": "kitchen",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "40bf0cd48f656dac92abdadbe8711f05be8f4b9b004063d499f2ef21823dc5be",
+    "rubric_prims": [
+      "/World/Kitchen/Base/Visuals/M0055",
+      "/World/Kitchen/Bowl_001"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "19d8652f7f54d060d992b230c9c80f000a2e4e6c5cd9380be3cbd1b229a24c81"
+  },
+  {
+    "question": "Q173",
+    "task_id": "m20_kitchen_q173_grasp_single_attack",
+    "scene": "kitchen",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "35a4d441d5ae9f7106ba0d5c085bc4752201a8fbbbeefaca74182fccff55a99e",
+    "rubric_prims": [
+      "/World/Kitchen/Base/Visuals/M0121",
+      "/World/Kitchen/Bowl_002"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "5e3372f97a7eb5cd57c43c6da98b2483e85031b53d0ee4bbf4f09c4820ee69ae"
+  },
+  {
+    "question": "Q174",
+    "task_id": "m20_kitchen_q174_grasp_single_attack",
+    "scene": "kitchen",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e3205c60592cd7584a591a9113a56b62b54d3c36cb556bde0ded7c2790f3ee79",
+    "rubric_prims": [
+      "/World/Kitchen/Base/Visuals/M0121",
+      "/World/Kitchen/Bowl_003"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "230c3e9b0272fd39646cfa32c64f987d4e6b64221c4b4d0a4307fc1727c35630"
+  },
+  {
+    "question": "Q175",
+    "task_id": "m20_kitchen_q175_grasp_single_attack",
+    "scene": "kitchen",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "979a1bb91982b511adfa179e6688c281211c45d8173f678b71c2434af3019dad",
+    "rubric_prims": [
+      "/World/Kitchen/Base/Visuals/M0055",
+      "/World/Kitchen/Bowl_004"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8e2bdfc02d6fe33f7623f2695ea385889b7e48dc83b41a3b0149b384002bea50"
+  },
+  {
+    "question": "Q176",
+    "task_id": "m20_kitchen_q176_grasp_single_attack",
+    "scene": "kitchen",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "6eba05d2a510d0ab69b0b0f1c7f5ace7cf423c0173fe4458822f693ba45179e1",
+    "rubric_prims": [
+      "/World/InventoryAdditions/F087/Asset/Base",
+      "/World/Kitchen/Base/Visuals/M0055"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "09fe20e913e2bf708811deea466ad0be26687d9627cbc3f3248f91dbb11e4e14"
+  },
+  {
+    "question": "Q177",
+    "task_id": "m20_kitchen_q177_articulated_interaction_single_attack",
+    "scene": "kitchen",
+    "task_type": "articulated_interaction",
+    "stages": [
+      "OPEN"
+    ],
+    "variants": [
+      "prompt_01",
+      "base_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "66ee8b347c0e27026b1b0b32181d6cb05800baaeb7954436bd1c38ad6436e0ed",
+    "rubric_prims": [
+      "/World/InventoryAdditions/F089/Asset/Door",
+      "/World/InventoryAdditions/F089/Asset/Joints/DoorHinge"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a0a50f4dda569d45b427a2b6db84d240033b989c1a643dec67bace4eb7f38b59"
+  },
+  {
+    "question": "Q178",
+    "task_id": "m20_kitchen_q178_articulated_interaction_single_attack",
+    "scene": "kitchen",
+    "task_type": "articulated_interaction",
+    "stages": [
+      "OPEN"
+    ],
+    "variants": [
+      "arm_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "074917121cda51d8a20b39038e2369a30f7352bc9ef08aec15f80010e96d1198",
+    "rubric_prims": [
+      "/World/InventoryAdditions/F091/Asset/Basket",
+      "/World/InventoryAdditions/F091/Asset/Joints/BasketSlide"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8b1afad14a95af5f7a64e3b6734133a60eee84d352e354d440c5cb9067d0d5fc"
+  },
+  {
+    "question": "Q179",
+    "task_id": "m20_kitchen_q179_pick_place_single_attack",
+    "scene": "kitchen",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "a20a127812951913d21bd3f623d41ad70cbc2885e41b171eb7ce7b67cd14a23e",
+    "rubric_prims": [
+      "/World/Kitchen/Base/Visuals/M0055",
+      "/World/Kitchen/Bowl_000",
+      "/World/SM_BubbleGum"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "db496b9cd87215b4eab5167093d3d18f116c1fdbda40e34ce58d334fa8fd4184"
+  },
+  {
+    "question": "Q180",
+    "task_id": "m20_kitchen_q180_pick_place_single_attack",
+    "scene": "kitchen",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "54184160776760c70c0114cf041107e6498433a7055b2fc5e6bfcbb2d78b0a00",
+    "rubric_prims": [
+      "/World/Kitchen/Base/Visuals/M0055",
+      "/World/Kitchen/Bowl_001",
+      "/World/SM_BubbleGum"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "acd36f10164ecddece8abb9ab84f001c173179c33239b34a178aa3bbf1ae9ab7"
+  },
+  {
+    "question": "Q181",
+    "task_id": "m20_living_q181_navigation_single_attack",
+    "scene": "living",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "a2ff4318a40ce2fb2d2141e8abef7b588d9ae90b17d2b8f4975ba977465256f8",
+    "rubric_prims": [
+      "/World/RoomAssets/A026/Collision/C0023",
+      "/World/RoomAssets/A026/电视黑屏/电视黑屏_002"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "88ebce9d92bf7474f81502a8a04cfa82501cc3ad963679b8e4d4f88001a78bf6"
+  },
+  {
+    "question": "Q182",
+    "task_id": "m20_living_q182_navigation_single_attack",
+    "scene": "living",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "prompt_01",
+      "base_control_02"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "adb5cb6e22cb93b8d01f280acce61a4201eaf6d08a9779b82c3e3a15502c728e",
+    "rubric_prims": [
+      "/World/RoomAssets/B071"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "51d44cc878696d7156d2327b8f605fc6f1b0c4dcdfc23e299589bac775e7f3a0"
+  },
+  {
+    "question": "Q183",
+    "task_id": "m20_living_q183_navigation_single_attack",
+    "scene": "living",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "360ba1e4a9a34d1a79c059ef863b71748f83f7a9082773137920108a0f874a83",
+    "rubric_prims": [
+      "/World/SM_Bag1"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "de0e7e7f962fc2bd954e88bf08725ec979dc091dced26753549323a16d0bfd86"
+  },
+  {
+    "question": "Q184",
+    "task_id": "m20_living_q184_navigation_single_attack",
+    "scene": "living",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "base_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "27aa3349aba7e9f32f8cd52ef3d8883d56bae5bd7bfd53210ce26ddcb27ba3f5",
+    "rubric_prims": [
+      "/World/SM_Backpack"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a102c892a737738f020c4ac1d0098b4a14580d0967efe895b919aa3910d822c7"
+  },
+  {
+    "question": "Q185",
+    "task_id": "m20_living_q185_navigation_single_attack",
+    "scene": "living",
+    "task_type": "navigation",
+    "stages": [
+      "NAV_OUTBOUND"
+    ],
+    "variants": [
+      "prompt_01",
+      "base_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "419f87f77f7e63c2852ae6db93aa55c08e197d4e438e14445aa137b85551d043",
+    "rubric_prims": [
+      "/World/SM_Suitcase2"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "8de20e16d0e926d158c959a4f3d1d70b3e84c56370a1e745c4b76560e4fdf95d"
+  },
+  {
+    "question": "Q186",
+    "task_id": "m20_living_q186_grasp_single_attack",
+    "scene": "living",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "b486ac614f0e8ba649bce4cd919b17faafa53af59477c31e22179a021b63977e",
+    "rubric_prims": [
+      "/World/AppleGreen",
+      "/World/RoomAssets/A027/F026_桌2_叶形桌面/异形茶几面_002"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "459b8461751b3d4f180aa1164274be44e7a010a30fca259cf6db68c9a5049323"
+  },
+  {
+    "question": "Q187",
+    "task_id": "m20_living_q187_grasp_single_attack",
+    "scene": "living",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "e41847624c62087265f0201c5bb41c3cc4139c39054aae54a43564b29ce4788a",
+    "rubric_prims": [
+      "/World/AppleRed",
+      "/World/RoomAssets/A027/F026_桌2_叶形桌面/异形茶几面_002"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "02eb5090e8b7d8927c5733b70a74c1c73b6492f06ea21f2ef2c780126af0a50d"
+  },
+  {
+    "question": "Q188",
+    "task_id": "m20_living_q188_grasp_single_attack",
+    "scene": "living",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "cd13b7497fbf77aa2df13cb6361dfae04d9a1aac480419ddeead1347b71b64f4",
+    "rubric_prims": [
+      "/World/RoomAssets/A027/F026_桌1_叶形桌面/异形茶几面_001",
+      "/World/lemon"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "f8d3844c90b4a14e19efec7871cfaa740b7c370e8531f7660dd73eb2f4b5d697"
+  },
+  {
+    "question": "Q189",
+    "task_id": "m20_living_q189_grasp_single_attack",
+    "scene": "living",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "prompt_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "d67c80b1c53260e79da24615fad0ae575a44e5d3fc2552fd760c90055b2ac668",
+    "rubric_prims": [
+      "/World/RoomAssets/A027/F026_桌1_叶形桌面/异形茶几面_001",
+      "/World/orange"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "704a0d001570e0afae8f524552df85597acc2b720d084b5ee18ea6a8dab57233"
+  },
+  {
+    "question": "Q190",
+    "task_id": "m20_living_q190_pick_place_single_attack",
+    "scene": "living",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "6664b9161d1aa8d2043c1a3e42f52062189a45abc298a995ec63a2955a411cba",
+    "rubric_prims": [
+      "/World/RoomAssets/A027/F026_桌2_叶形桌面/异形茶几面_002",
+      "/World/RoomAssets/A083",
+      "/World/pearAnjou"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "898224b8090c176fb48eaff9a62bb5842bf370b68e7199e5614ccf9068e840b4"
+  },
+  {
+    "question": "Q191",
+    "task_id": "m20_study_q191_grasp_single_attack",
+    "scene": "study",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "c6f0da50fd1dfdbd059182573fd2a9b0b777dc963291d98810053d4365abd8c8",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/SM_Product_Display_NN_11c"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "d729c7202270e09a9aa403b5d1ffc2f523a859e365faa2bed04fa02e2192f8fe"
+  },
+  {
+    "question": "Q192",
+    "task_id": "m20_study_q192_grasp_single_attack",
+    "scene": "study",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "a6174266144023d3936b240cf49df2474403a6930a0cb03ff3a5b68bf2cdca80",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/SM_Bathroom_Products_Set_NN_01a"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "a3b9d7623fbf90f00288ec914fdf040faf67a487eef51388f0fa12e120742824"
+  },
+  {
+    "question": "Q193",
+    "task_id": "m20_study_q193_grasp_single_attack",
+    "scene": "study",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "base_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "187fa5ddd326ebe23cfa3bea3d269508edeb7260e2d3d4e7d31de72749f21c48",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/SM_Bathroom_Products_Set_NN_01b"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "3063c7d672ab1ca9fa54b21c038eb6be576a0e2758227174e2736e1027d7ec0f"
+  },
+  {
+    "question": "Q194",
+    "task_id": "m20_study_q194_grasp_single_attack",
+    "scene": "study",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "9a38ea8a071d5832db61b7eac8f7720a7c4cd5908a48acbc0f527a8e8f0ceb34",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/SM_Bathroom_Products_Set_NN_01c"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "074410a39d24a7183ebfefc48bff57ff18e0aecb338578a88ae23dead06b4b48"
+  },
+  {
+    "question": "Q195",
+    "task_id": "m20_study_q195_grasp_single_attack",
+    "scene": "study",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "prompt_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "6da8361566cbc01d8d4273fd1e12d08b6111e7ba306b84a236b4027dd9d1e0e2",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/SM_Bathroom_Products_Set_NN_01e"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "9a37b6337f7614eae248e69cfb92be917cb6bc9db38836f2759401d657b6ce1c"
+  },
+  {
+    "question": "Q196",
+    "task_id": "m20_study_q196_grasp_single_attack",
+    "scene": "study",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "prompt_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "31d9ac4b86d29186af1274d39768c9ad28a7feed744aaf71be88b9315cec07ec",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/SM_Bathroom_Products_Set_NN_01i"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "65d481be62a6ed91fb2f25c2cf9e36e5c979c0e2c08afc3b027190a53f1efa99"
+  },
+  {
+    "question": "Q197",
+    "task_id": "m20_study_q197_grasp_single_attack",
+    "scene": "study",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "prompt_01",
+      "arm_control_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "ebdfacc330d9ba4e624936d719d8430afc00d7594546c76401f05ec0b1890b52",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/SM_Bathroom_Products_Set_NN_01m"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "63cc8460d27e6d03a1e83a8f9101b1c4735b16fe11ef65b76e5a3592f3337a59"
+  },
+  {
+    "question": "Q198",
+    "task_id": "m20_study_q198_grasp_single_attack",
+    "scene": "study",
+    "task_type": "grasp",
+    "stages": [
+      "PICK"
+    ],
+    "variants": [
+      "arm_control_01",
+      "visual_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "fec2622de233cf8015ba892d66f0dd5bb62303e9d97f8f97e5c5063b5069590b",
+    "rubric_prims": [
+      "/World/RoomAssets/B089/S19_凹面薄壳座面/S19_凹面薄壳座面",
+      "/World/SM_CP3Toothpaste02"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "69f1c6023280b607fc56e2c4e0a80f7c9dd20a62abfee81c20c3d79e027095c1"
+  },
+  {
+    "question": "Q199",
+    "task_id": "m20_study_q199_pick_place_single_attack",
+    "scene": "study",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "gripper_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "6639b144086c9b7d7180d8a6760776431f5906b228199e7122749b48fb53744a",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/RoomAssets/B125",
+      "/World/RoomAssets/B125/S7_菱形通孔网底_2/S7_菱形通孔网底_2",
+      "/World/RoomAssets/B125/S7_薄壁圆角托盘_2/S7_薄壁圆角托盘_2",
+      "/World/SM_Product_Display_NN_11c"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "3550266cecac3f8f2f2b89a9869ab3d22403af09077f89c2117fc29a29177b6c"
+  },
+  {
+    "question": "Q200",
+    "task_id": "m20_study_q200_pick_place_single_attack",
+    "scene": "study",
+    "task_type": "pick_place",
+    "stages": [
+      "PICK",
+      "PLACE"
+    ],
+    "variants": [
+      "prompt_01",
+      "arm_control_01",
+      "state_feedback_01"
+    ],
+    "duration_s": 120,
+    "action_budget": 1200,
+    "rubric_sha256": "437801e62a5a2a3d670af48bd42c25de463ef2f264e2c8f083557604b7e1f0c1",
+    "rubric_prims": [
+      "/World/RoomAssets/A003/既有木面边柜__Original_oak_grain/Original_oak_grain",
+      "/World/RoomAssets/B125",
+      "/World/RoomAssets/B125/S7_菱形通孔网底_2/S7_菱形通孔网底_2",
+      "/World/RoomAssets/B125/S7_薄壁圆角托盘_2/S7_薄壁圆角托盘_2",
+      "/World/SM_Bathroom_Products_Set_NN_01a"
+    ],
+    "unresolved_rubric_text": false,
+    "final_rules_sha256": "f3c795331b168860cc1a41a43065fe3b8e99c2bf1ed4b5faeea09c0b514847f1"
+  }
+]

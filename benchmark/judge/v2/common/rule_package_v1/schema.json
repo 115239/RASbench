@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "robolab-action-rule-package/v1",
+  "title": "RoboLab Action Rule Package v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["package_schema", "package_id", "task_id", "robot_role", "trajectory_context", "items"],
+  "properties": {
+    "package_schema": {"const": "robolab-action-rule-package/v1"},
+    "package_id": {"$ref": "#/$defs/id128"},
+    "task_id": {"$ref": "#/$defs/id128"},
+    "robot_role": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,63}$"},
+    "trajectory_context": {"$ref": "#/$defs/trajectory_context"},
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4096,
+      "items": {"$ref": "#/$defs/item"}
+    }
+  },
+  "$defs": {
+    "id128": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"},
+    "prim_path": {"type": "string", "pattern": "^/[^/].*"},
+    "number": {"type": "number"},
+    "vector3": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/number"}},
+    "vector4": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/number"}},
+    "plane": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/number"}},
+    "aabb": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"$ref": "#/$defs/number"}},
+    "footprint": {
+      "type": "array", "maxItems": 256,
+      "items": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"$ref": "#/$defs/number"}}
+    },
+    "entity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["entity_id", "prim_path", "name", "role", "physics_type"],
+      "properties": {
+        "entity_id": {"type": "string", "minLength": 1},
+        "prim_path": {"$ref": "#/$defs/prim_path"},
+        "name": {"type": "string", "minLength": 1},
+        "role": {"type": "string", "minLength": 1},
+        "physics_type": {"type": "string", "minLength": 1}
+      }
+    },
+    "articulation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["entity_id", "prim_path", "joint_paths", "body_paths"],
+      "properties": {
+        "entity_id": {"type": "string", "minLength": 1},
+        "prim_path": {"$ref": "#/$defs/prim_path"},
+        "joint_paths": {"type": "array", "items": {"$ref": "#/$defs/prim_path"}},
+        "body_paths": {"type": "array", "items": {"$ref": "#/$defs/prim_path"}}
+      }
+    },
+    "geometry": {
+      "type": "object", "additionalProperties": false,
+      "required": ["entity_id", "prim_path", "local_centroid_m", "local_aabb_m", "footprint_xy_m", "hull_planes_full", "hull_planes_open_top"],
+      "properties": {
+        "entity_id": {"type": "string", "minLength": 1},
+        "prim_path": {"$ref": "#/$defs/prim_path"},
+        "local_centroid_m": {"$ref": "#/$defs/vector3"},
+        "local_aabb_m": {"$ref": "#/$defs/aabb"},
+        "footprint_xy_m": {"$ref": "#/$defs/footprint"},
+        "hull_planes_full": {"type": "array", "maxItems": 256, "items": {"$ref": "#/$defs/plane"}},
+        "hull_planes_open_top": {"type": "array", "maxItems": 256, "items": {"$ref": "#/$defs/plane"}},
+        "local_hull_vertices_m": {"type": "array", "maxItems": 256, "items": {"$ref": "#/$defs/vector3"}}
+      }
+    },
+    "trajectory_context": {
+      "type": "object", "additionalProperties": false,
+      "required": ["task_prompt", "scene_prompt", "entities", "articulations", "geometries"],
+      "properties": {
+        "task_prompt": {"type": "string", "minLength": 1},
+        "scene_prompt": {"type": "string", "minLength": 1},
+        "entities": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+        "articulations": {"type": "array", "items": {"$ref": "#/$defs/articulation"}},
+        "geometries": {"type": "array", "items": {"$ref": "#/$defs/geometry"}}
+      }
+    },
+    "selector": {
+      "type": "object",
+      "properties": {
+        "path": {"type": "string", "pattern": "^/data/demo_0/"},
+        "value": {},
+        "index": {"type": "integer", "minimum": 0},
+        "slice": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 0}},
+        "transform": {"type": "object"},
+        "sample": {"enum": ["all", "first"]}
+      },
+      "additionalProperties": false,
+      "anyOf": [{"required": ["path"]}, {"required": ["value"]}]
+    },
+    "geometry_ref": {
+      "type": "object", "additionalProperties": false,
+      "required": ["geometry_ref"], "properties": {"geometry_ref": {"type": "string", "minLength": 1}}
+    },
+    "world_pose_literal": {
+      "type": "object", "additionalProperties": false, "required": ["literal"],
+      "properties": {"literal": {
+        "type": "object", "additionalProperties": false, "required": ["type", "value"],
+        "properties": {
+          "type": {"const": "world_pose_xyz_wxyz"},
+          "value": {"type": "array", "minItems": 7, "maxItems": 7, "items": {"$ref": "#/$defs/number"}}
+        }
+      }}
+    },
+    "input_binding": {"oneOf": [{"$ref": "#/$defs/selector"}, {"$ref": "#/$defs/geometry_ref"}, {"$ref": "#/$defs/world_pose_literal"}]},
+    "temporal": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["mode"], "properties": {"mode": {"enum": ["eventually", "final", "always"]}}},
+        {"type": "object", "additionalProperties": false, "required": ["mode", "min_duration_s"], "properties": {"mode": {"const": "held_for"}, "min_duration_s": {"type": "number", "minimum": 0}}}
+      ]
+    },
+    "atomic": {
+      "type": "object", "additionalProperties": false,
+      "required": ["predicate", "inputs", "params", "temporal"],
+      "properties": {
+        "predicate": {"type": "string", "minLength": 1},
+        "inputs": {"type": "object", "additionalProperties": {"$ref": "#/$defs/input_binding"}},
+        "params": {"type": "object"},
+        "temporal": {"$ref": "#/$defs/temporal"}
+      }
+    },
+    "trace_predicate_node": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "op", "predicate", "inputs", "params"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "op": {"const": "predicate"},
+        "predicate": {"type": "string", "minLength": 1},
+        "inputs": {"type": "object", "additionalProperties": {"$ref": "#/$defs/input_binding"}},
+        "params": {"type": "object"}
+      }
+    },
+    "trace_nary_node": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "op", "operands"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "op": {"enum": ["all_of", "any_of"]},
+        "operands": {"type": "array", "minItems": 2, "maxItems": 8, "uniqueItems": true, "items": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"}}
+      }
+    },
+    "trace_not_node": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "op", "operand"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "op": {"const": "not"},
+        "operand": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"}
+      }
+    },
+    "reduce_verdict": {
+      "type": "object", "additionalProperties": false,
+      "required": ["op", "trace", "mode"],
+      "properties": {
+        "op": {"const": "reduce"},
+        "trace": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "mode": {"enum": ["eventually", "final", "always", "held_for"]},
+        "min_duration_s": {"type": "number", "minimum": 0}
+      },
+      "allOf": [{"if": {"properties": {"mode": {"const": "held_for"}}}, "then": {"required": ["min_duration_s"]}, "else": {"not": {"required": ["min_duration_s"]}}}]
+    },
+    "first_event_guard_verdict": {
+      "type": "object", "additionalProperties": false,
+      "required": ["op", "event_trace", "guard_trace", "window_start_offset_s", "window_end_offset_s", "guard_mode", "missing_event_policy"],
+      "properties": {
+        "op": {"const": "first_event_guard"},
+        "event_trace": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "guard_trace": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "window_start_offset_s": {"const": 0.0},
+        "window_end_offset_s": {"type": "number", "minimum": 0},
+        "guard_mode": {"const": "always"},
+        "missing_event_policy": {"const": "fail"}
+      }
+    },
+    "interval_guard_verdict": {
+      "type": "object", "additionalProperties": false,
+      "required": ["op", "start_trace", "end_trace", "condition_trace", "bounds", "condition_mode", "missing_start_policy", "missing_end_policy"],
+      "properties": {
+        "op": {"const": "interval_guard"},
+        "start_trace": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "end_trace": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "condition_trace": {"type": "string", "pattern": "^TRACE-[0-9]{2}$"},
+        "bounds": {"enum": ["[start,end)", "[start,end]"]},
+        "condition_mode": {"const": "always"},
+        "missing_start_policy": {"const": "fail"},
+        "missing_end_policy": {"enum": ["fail", "episode_end"]}
+      }
+    },
+    "trace": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema", "nodes", "verdict"],
+      "properties": {
+        "schema": {"const": "robolab-action-trace-plan/v0.1"},
+        "nodes": {"type": "array", "minItems": 1, "maxItems": 32, "items": {"oneOf": [{"$ref": "#/$defs/trace_predicate_node"}, {"$ref": "#/$defs/trace_nary_node"}, {"$ref": "#/$defs/trace_not_node"}]}},
+        "verdict": {"oneOf": [{"$ref": "#/$defs/reduce_verdict"}, {"$ref": "#/$defs/first_event_guard_verdict"}, {"$ref": "#/$defs/interval_guard_verdict"}]}
+      }
+    },
+    "candidate_call": {
+      "oneOf": [
+        {"$ref": "#/$defs/atomic"},
+        {"type": "object", "additionalProperties": false, "required": ["evaluation"], "properties": {"evaluation": {"$ref": "#/$defs/trace"}}}
+      ]
+    },
+    "candidate_quantifier_body": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema", "mode", "candidates"],
+      "properties": {
+        "schema": {"const": "robolab-action-candidate-quantifier/v0.1"},
+        "mode": {"const": "exists"},
+        "candidates": {
+          "type": "array", "minItems": 1, "maxItems": 256,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["candidate_id", "call"],
+            "properties": {"candidate_id": {"type": "string", "minLength": 1}, "call": {"$ref": "#/$defs/candidate_call"}}
+          }
+        }
+      }
+    },
+    "candidate_evaluation": {
+      "type": "object", "additionalProperties": false, "required": ["candidate_quantifier"],
+      "properties": {"candidate_quantifier": {"$ref": "#/$defs/candidate_quantifier_body"}}
+    },
+    "annotation_scalar": {"type": ["string", "number", "integer", "boolean", "null"]},
+    "annotation_value": {"oneOf": [{"$ref": "#/$defs/annotation_scalar"}, {"type": "array", "maxItems": 256, "items": {"$ref": "#/$defs/annotation_scalar"}}]},
+    "item": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "kind", "description", "evaluation", "depends_on"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id128"},
+        "kind": {"enum": ["score_point", "fatal_check", "outcome_check"]},
+        "description": {"type": "string", "minLength": 1, "maxLength": 16384},
+        "evaluation": {"oneOf": [{"$ref": "#/$defs/atomic"}, {"$ref": "#/$defs/trace"}, {"$ref": "#/$defs/candidate_evaluation"}]},
+        "depends_on": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id128"}},
+        "scoring_annotations": {"type": "object", "maxProperties": 32, "propertyNames": {"pattern": "^[A-Za-z][A-Za-z0-9_]{0,63}$"}, "additionalProperties": {"$ref": "#/$defs/annotation_value"}}
+      }
+    }
+  }
+}

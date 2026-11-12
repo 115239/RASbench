@@ -1,0 +1,66 @@
+{
+  "schema": "paper200-pi05-transfer/v1",
+  "created": "2026-09-24T02:45:02Z",
+  "weights": "unchanged original pi05_base Orbax parameters",
+  "scope": "explicit M20/Piper transfer hypothesis; not a claim of native M20 training support",
+  "normalization": {
+    "navigation": "trossen_mobile",
+    "manipulation": "trossen",
+    "method": "quantile normalization and inverse normalization"
+  },
+  "state": {
+    "source": "measured 25-D common robot state",
+    "joint_indices": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "joint_signs": [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1
+    ],
+    "native_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "gripper": "native state[6] = official aloha _gripper_to_angular(1 - observed state[24])",
+    "unmapped_channels": "normalization dataset mean; unused second arm has no M20 counterpart"
+  },
+  "images": {
+    "base_0_rgb": "actual attacked front RGB",
+    "left_wrist_0_rgb": "actual wrist RGB",
+    "right_wrist_0_rgb": "zero image, image_mask=False",
+    "resolution": [
+      224,
+      224
+    ]
+  },
+  "actions": {
+    "chunk_selection": "first action per actual model request; 2 Hz common high-level boundary",
+    "navigation": {
+      "forward": "raw action[14], clipped to [-0.25, 0.25] m/s",
+      "yaw": "raw action[15], clipped to [-0.5, 0.5] rad/s",
+      "lateral": 0
+    },
+    "manipulation": {
+      "joint_delta": "first 6 action channels times signs [1,-1,-1,1,1,1], clipped to +/-0.08 rad",
+      "shared_end_effector_abi": "public measured 6x6 arm Jacobian @ joint delta; translation clipped +/-0.02 m, rotation +/-0.08 rad",
+      "gripper": "1 - official aloha _gripper_from_angular(raw action[6]), clipped [0,1]"
+    },
+    "final_execution": "same attack boundaries, inverse kinematics, actuator limits, locomotion and execution receipts as GR00T"
+  },
+  "rng": "experiment_seed + zero-based actual inference call index",
+  "evidence": "native_*.npz retains raw native action chunks and native state; input/output_*.msgpack retains model wire payloads; receipt chain retains issued actuator commands",
+  "ground_truth_rubric_input": false
+}

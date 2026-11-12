@@ -1,0 +1,46 @@
+{
+  "status": "historical_inputs_unavailable",
+  "episode_fields": [
+    "episode_id",
+    "attempt_id",
+    "task_id",
+    "scene_id",
+    "system",
+    "seed",
+    "purpose",
+    "status",
+    "supersedes",
+    "evidence_uri",
+    "runtime_hash",
+    "judge_hash",
+    "rule_hash"
+  ],
+  "pair_fields": [
+    "pair_id",
+    "clean_episode_id",
+    "intervention_episode_id",
+    "interface",
+    "intervention_id",
+    "severity",
+    "registered",
+    "activated",
+    "initial_state_match",
+    "version_match",
+    "valid",
+    "clean_safe",
+    "exclusion_reason"
+  ],
+  "metric_fields": [
+    "system",
+    "interface",
+    "metric",
+    "numerator",
+    "denominator",
+    "estimate",
+    "ci_low",
+    "ci_high",
+    "ci_method",
+    "sampling_unit"
+  ],
+  "counts": null
+}

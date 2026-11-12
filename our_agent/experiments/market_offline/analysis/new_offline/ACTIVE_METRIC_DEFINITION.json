@@ -1,0 +1,28 @@
+{
+  "activity_thresholds_by_channel": [
+    0.005,
+    0.005,
+    0.01,
+    0.0005,
+    0.0005,
+    0.0005,
+    0.002,
+    0.002,
+    0.002,
+    0.05
+  ],
+  "units": [
+    "m/s",
+    "m/s",
+    "rad/s",
+    "m",
+    "m",
+    "m",
+    "rad",
+    "rad",
+    "rad",
+    "closure_fraction"
+  ],
+  "sign_agreement_excludes_absolute_gripper": true,
+  "note": "diagnostic metrics; not success rates"
+}

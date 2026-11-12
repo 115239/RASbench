@@ -1,0 +1,10 @@
+{
+  "registered_utc": "2026-11-10T18:26:07.656756Z",
+  "reason": "primary four evenly spaced observations cover CONTACT_CLOSE only seven times; supplement stage coverage before final model results",
+  "role": "supplementary offline analysis; primary 320-observation evaluation unchanged",
+  "selection": "one median eligible frame per present phase per held-out episode",
+  "episodes": "same 80 held-out episodes",
+  "checkpoint": "all six final 2000-update checkpoints, no selection or retraining",
+  "code_sha256": "0249c2adcd95392dae7d2caad2a2087ce18affa3aa1397efc9ef973a14213f86",
+  "closed_loop_success": false
+}
